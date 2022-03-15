@@ -1,0 +1,15 @@
+{% extends "layouts/base.html" %}
+
+<!-- define block content -->
+{% block content %}
+<main>
+	<article class="hero">
+		<h1>{{ title }}</h1>
+		<p>{{ hero.lead }}</p>
+		<a href="{{ hero.cta.link }}">{{ hero.cta.text }}</a>
+	</article>
+
+	{% set ctaContent = primaryCTA %} {% include "partials/cta.html" %} {{ content
+	| safe }}
+</main>
+{% endblock %}
