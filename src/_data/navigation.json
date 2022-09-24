@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "text": "About",
+      "url": "/about-us/"
+    },
+    {
+      "text": "Equipment",
+      "url": "/equipment/"
+    },
+    {
+      "text": "Plastics",
+      "url": "/plastics/"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    },
+    {
+      "text": "249 3780",
+      "url": "tel:+2302493780",
+      "isTel": true
+    }
+  ]
+}

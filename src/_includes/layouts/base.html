@@ -4,15 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>{{ title }}</title>
+		{% include "partials/meta-info.html" %}
 	</head>
 	<body>
-		{% block content %}
-		<!-- block content placeholder -->
-		<p>
-			Here is some placeholder content that will render if a template doesn’t
-			define a block.
-		</p>
-		{% endblock %}
+    {% include "partials/site-head.html" %}
+    <main tabindex="-1" id="main-content">
+      {% block content %}{% endblock %}
+    </main>
 	</body>
 </html>
