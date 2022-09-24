@@ -2,7 +2,6 @@
 
 <!-- define block content -->
 {% block content %}
-<main>
 	<article class="hero">
 		<h1>{{ title }}</h1>
 		<p>{{ hero.lead }}</p>
@@ -15,5 +14,4 @@
 	{{ content | safe }}
 
 	{% include "partials/product-categories.html" %}
-</main>
 {% endblock %}
