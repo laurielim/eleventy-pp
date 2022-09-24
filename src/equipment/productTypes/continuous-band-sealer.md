@@ -1,5 +1,7 @@
 ---
 title: "Continous band sealer"
+key: continuous-band-sealer
+group: ["packaging"]
 ---
 
 A reliable and multipurpose piece of equipment to vastly improve packing speed and effectiveness over the traditional manual impulse sealing machine. Available option:

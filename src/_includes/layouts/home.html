@@ -9,7 +9,11 @@
 		<a href="{{ hero.cta.link }}">{{ hero.cta.text }}</a>
 	</article>
 
-	{% set ctaContent = primaryCTA %} {% include "partials/cta.html" %} {{ content
-	| safe }}
+	{% set ctaContent = primaryCTA %}
+	{% include "partials/cta.html" %}
+
+	{{ content | safe }}
+
+	{% include "partials/product-categories.html" %}
 </main>
 {% endblock %}
