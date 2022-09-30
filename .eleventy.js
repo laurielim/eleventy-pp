@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = (config) => {
 
 	// Set directories to pass through to the dist folder
