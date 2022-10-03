@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		{% include "partials/meta-info.html" %}
-	</head>
-	<body>
-    {% include "partials/site-head.html" %}
-    <main tabindex="-1" id="main-content">
-      {% block content %}{% endblock %}
-    </main>
-	</body>
+<html lang="en" id="top-of-site" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    {% include "partials/meta-info.html" %}
+    <style>{% include "css/main.css" %}</style>
+    {% if pageStyles %}
+      <style>{% include pageStyles %}</style>
+    {% endif %}
+  </head>
+  <body>
+    <div class="page-wrapper sticky-footer">
+      {% include "partials/site-head.html" %}
+      <main tabindex="-1" id="main-content">
+        {% block content %}{% endblock %}
+      </main>
+      {% include "partials/site-footer.html" %}
+    </div>
+    {% set js %}
+      {% include "js/main.js" %}
+    {% endset %}
+    <script>
+      {{ js | safe }}
+    </script>
+  </body>
 </html>

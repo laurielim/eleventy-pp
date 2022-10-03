@@ -1,15 +1,15 @@
-# Misc
-*.log
-npm-debug.*
-*.scssc
-*.swp
-.DS_Store
-Thumbs.db
-.sass-cache
-.env
-.cache
+# Dependencies
+/node_modules
 
-# Node modules and output
-node_modules
-dist
-src/_includes/css
+# Output
+/public
+
+# Sass
+.sass-cache/
+*.css.map
+*.css
+*.sass.map
+*.scss.map
+
+# Misc
+.DS_Store

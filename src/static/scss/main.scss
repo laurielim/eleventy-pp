@@ -1,0 +1,16 @@
+//
+// @file
+//
+// This file includes all imports
+//
+
+@charset 'UTF-8';
+
+@use 'spacing' as *;
+
+@import 'variables';
+@import 'base';
+
+@import './components/footer';
+@import './components/header';
+@import './components/cta'

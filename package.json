@@ -4,16 +4,27 @@
 	"description": "",
 	"main": ".eleventy.js",
 	"scripts": {
-		"start": "npx eleventy --serve"
+    "watch:sass": "sass src/static/scss:src/_includes/css --watch",
+    "build:sass": "sass src/static/scss:src/_includes/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "ELEVENTY_ENV=development eleventy",
+    "start": "npm run watch:sass & npm run watch:eleventy",
+    "build": "npm run build:sass & npm run build:eleventy",
+    "build:sass:prod": "sass src/static/scss:src/_includes/css --style=compressed",
+    "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
+    "build:prod": "npm run build:sass:prod & npm run build:eleventy:prod"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@11ty/eleventy": "^1.0.2"
-	},
-	"devDependencies": {
-		"contentful": "^9.2.5",
-		"dotenv": "^16.0.3"
+    "@11ty/eleventy": "1.0.2",
+    "@11ty/eleventy-img": "^2.0.1",
+    "@vidhill/fortawesome-brands-11ty-shortcode": "^1.0.2",
+    "html-minifier": "^4.0.0",
+    "outdent": "^0.8.0",
+    "prettier": "^2.7.1",
+    "sass": "1.55.0",
+    "terser": "^5.15.0"
 	}
 }

@@ -1,7 +1,7 @@
 ---
 title: SEALCHG-1 & SEALCHG-2
 productType: continuous-band-sealer
-image: /images/equipment/SEALCHG-12.png
+image: /static/images/equipment/SEALCHG-12.png
 specs:
   [
     { label: "Voltage", value: "220 V, 1-phase" },

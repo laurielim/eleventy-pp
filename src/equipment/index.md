@@ -4,7 +4,7 @@ tagline: Curated investment opportunities to make your business grow
 description: "Browse through our equipment catalogue. We have a range of food processing and packaging equipment, including mixers, ovens and sealing machines. All equipment come with a 1 year warranty and we welcome you to our facility to try our machines before buying."
 displayOrder: 2
 image:
-  src: /images/Perfeq.jpeg
+  src: src/static/images/Perfeq.jpeg
   alt: A manual impulse sealer
 layout: "layouts/department-landing.html"
 hero:
@@ -12,43 +12,43 @@ hero:
 productGroup:   [
     {
       title: "Packaging",
-      imageSrc: /images/equipment/packaging.jpeg,
+      imageSrc: src/static/images/equipment/packaging.jpeg,
       imageAlt: Packaged vegetables,
       url: /equipment/packaging
     },
     {
       title: "Electronic Scale",
-      imageSrc: /images/equipment/electronic-scale.jpeg,
+      imageSrc: src/static/images/equipment/electronic-scale.jpeg,
       imageAlt: Electronic scale brand logo,
       url: /equipment/scale
     },
     {
       title: "Baking",
-      imageSrc: /images/equipment/baking.jpeg,
+      imageSrc: src/static/images/equipment/baking.jpeg,
       imageAlt: Various baked goods,
       url: /equipment/baking
     },
     {
       title: "Hot processing",
-      imageSrc: /images/equipment/hot-processing.png,
+      imageSrc: src/static/images/equipment/hot-processing.png,
       imageAlt: Deep fryer in use,
       url: /equipment/hot-processing
     },
     {
       title: "Cold processing",
-      imageSrc: /images/equipment/cold-processing.jpeg,
+      imageSrc: src/static/images/equipment/cold-processing.jpeg,
       imageAlt: Food conveyor belt,
       url: /equipment/cold-processing
     },
     {
       title: "Other equipments",
-      imageSrc: /images/equipment/other-equipments.jpeg,
+      imageSrc: src/static/images/equipment/other-equipments.jpeg,
       imageAlt: Assortment of spices,
       url: /equipment/other
     },
     {
       title: "Stainless steel furniture",
-      imageSrc: /images/equipment/stainless-steel-furniture.png,
+      imageSrc: src/static/images/equipment/stainless-steel-furniture.png,
       imageAlt: Stainless steel shelf,
       url: /equipment/ss-furniture
     },

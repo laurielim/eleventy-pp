@@ -19,5 +19,14 @@ module.exports = {
     }
 
     return response;
-  }
+  },
+
+  /**
+   * Returns the current year
+   *
+   * @returns {String} The attributes or empty
+   */
+     getCurrentYear() {
+      return /\d{4}/.exec(Date())[0];
+    }
 };

@@ -13,11 +13,10 @@
         {% for item in productGroup %}
         <figure class="[ productGroup__item ] [ flow ]">
           <div class="[ productGroup__media ] [ frame ]" data-frame="primary">
-            <img
-              class="radius"
-              src="{{ item.imageSrc }}"
-              alt="{{ item.imageAlt }}"
-            />
+            {% image
+              item.imageSrc,
+              item.imageAlt
+            %}
           </div>
           <figcaption class="[ productGroup__content ] [ flow ]">
             <a href="{{ item.url }}" class="[ productGroup__heading ]">

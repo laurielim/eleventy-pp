@@ -3,8 +3,5 @@
 {% block content %}
   <article>
     {{ content | safe }}
-    {% for item in contentful %}
-      {{ item.name }}
-    {% endfor %}
   </article>
 {% endblock %}

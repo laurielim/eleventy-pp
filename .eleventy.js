@@ -1,9 +1,9 @@
-require('dotenv').config();
-
 module.exports = (config) => {
+	config.addWatchTarget("./src/static/scss/");
+  config.addTransform("minify", require("./src/transforms/minify"));
 
-	// Set directories to pass through to the dist folder
-	config.addPassthroughCopy("./src/images/");
+  // Shortcodes
+  config.addNunjucksAsyncShortcode('image', require('./src/shortcodes/imageShortcode'));
 
 	const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
@@ -28,7 +28,7 @@ module.exports = (config) => {
 		htmlTemplateEngine: "njk",
 		dir: {
 			input: "src",
-			output: "dist",
+			output: "public",
 		},
 	};
 };

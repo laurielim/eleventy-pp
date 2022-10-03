@@ -1,7 +1,7 @@
 ---
 title: SEALCH-1
 productType: continuous-band-sealer
-image: /images/equipment/SEALCH-1.png
+image: /static/images/equipment/SEALCH-1.png
 specs:
   [
     { label: "Voltage", value: "220 V, 1-phase" },
