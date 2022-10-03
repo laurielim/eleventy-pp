@@ -2,6 +2,8 @@ module.exports = (config) => {
 	config.addWatchTarget("./src/static/scss/");
   config.addTransform("minify", require("./src/transforms/minify"));
 
+	config.addPassthroughCopy('./src/admin/');
+
   // Shortcodes
   config.addNunjucksAsyncShortcode('image', require('./src/shortcodes/imageShortcode'));
 

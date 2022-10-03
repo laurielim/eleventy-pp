@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!-- This handle the auth URl paramters passed from Netlify -->
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {% include "partials/meta-info.html" %}
     <style>{% include "css/main.css" %}</style>
     {% if pageStyles %}
@@ -25,4 +27,16 @@
       {{ js | safe }}
     </script>
   </body>
+	<!-- This helps redirect to the admin when a user logs in -->
+	<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+				if (!user) {
+					window.netlifyIdentity.on("login", () => {
+						document.location.href = "/admin/";
+					});
+				}
+			});
+		}
+		</script>
 </html>

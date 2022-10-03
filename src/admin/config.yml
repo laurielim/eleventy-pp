@@ -1,0 +1,70 @@
+backend:
+  # Use netlify identity as backend
+  name: git-gateway
+  branch: main
+media_folder: "src/static/images"
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+# Run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+# publish_mode: editorial_workflow
+collections:
+  - label: "Products"
+    name: "products"
+    folder: "src/equipment/products"
+    create: true
+    slug: "{{slug}}"
+    filter: {field: "language", value: "en"}
+    editor:
+      preview: false
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Description"
+        name: "description"
+        widget: "string"
+      - label: "Product Type"
+        name: "productType"
+        widget: "relation"
+        collections: "productTypes"
+        search_fields: "title"
+        value_field: "slug"
+      - label: Specifications
+        name: "specs"
+        widget: list
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Value", name: "value", widget: "string" }
+        default:
+          - { label: "Voltage", value: "220 V, 1-phase" }
+          - { label: "Power", value: "kW" }
+          - { label: "Dimension", value: "mm" }
+          - { label: "Net weight", value: Kg" }
+  - label: "Product Types"
+    name: "productTypes"
+    folder: "src/equipment/productTypes"
+    create: true
+    slug: "{{slug}}"
+    filter: {field: "language", value: "en"}
+    editor:
+      preview: false
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Description"
+        name: "description"
+        widget: "string"
+      - widget: select
+        label: "tags"
+        name: "tags"
+        multiple: true
+        create: true
+        options:
+          - { label: "Packaging", value: "packaging" }
+          - { label: "Baking", value: "baking" }
+          - { label: "Stainless Steel Furniture", value: "ss-furniture" }
