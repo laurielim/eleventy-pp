@@ -30,9 +30,9 @@ collections:
       - label: "Product Type"
         name: "productType"
         widget: "relation"
-        collections: "productTypes"
-        search_fields: "title"
-        value_field: "slug"
+        collection: "productTypes"
+        search_fields: ["title"]
+        value_field: "{{slug}}"
       - label: Specifications
         name: "specs"
         widget: list
