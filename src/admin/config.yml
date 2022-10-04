@@ -12,9 +12,9 @@ slug:
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Products"
+  - label: "Product"
     name: "products"
-    folder: "src/equipment/products"
+    folder: "src/equipment/products/"
     create: true
     slug: "{{slug}}"
     filter: {field: "language", value: "en"}
@@ -26,16 +26,24 @@ collections:
         widget: "string"
       - label: "Description"
         name: "description"
+        required: false
         widget: "string"
       - label: "Product Type"
-        name: "productType"
+        name: "productTypes"
         widget: "relation"
         collection: "productTypes"
         search_fields: ["title"]
-        value_field: "{{slug}}"
+        display_fields: ["{{title}}"]
+        value_field: "title"
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        allow_multiple: false
+        choose_url: false
       - label: Specifications
         name: "specs"
         widget: list
+        collapsed: false
         fields:
           - { label: "Label", name: "label", widget: "string" }
           - { label: "Value", name: "value", widget: "string" }
@@ -44,9 +52,9 @@ collections:
           - { label: "Power", value: "kW" }
           - { label: "Dimension", value: "mm" }
           - { label: "Net weight", value: Kg" }
-  - label: "Product Types"
+  - label: "Product Type"
     name: "productTypes"
-    folder: "src/equipment/productTypes"
+    folder: "src/equipment/productTypes/"
     create: true
     slug: "{{slug}}"
     filter: {field: "language", value: "en"}
@@ -58,7 +66,7 @@ collections:
         widget: "string"
       - label: "Description"
         name: "description"
-        widget: "string"
+        widget: "markdown"
       - widget: select
         label: "tags"
         name: "tags"

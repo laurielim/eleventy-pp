@@ -8,6 +8,7 @@
     "build:sass": "sass src/static/scss:src/_includes/css",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "ELEVENTY_ENV=development eleventy",
+    "admin": "npx netlify-cms-proxy-server",
     "start": "npm run watch:sass & npm run watch:eleventy",
     "build": "npm run build:sass & npm run build:eleventy",
     "build:sass:prod": "sass src/static/scss:src/_includes/css --style=compressed",
