@@ -7,6 +7,11 @@ slug:
   encoding: "ascii"
   clean_accents: true
   sanitize_replacement: "-"
+# Beta feature - i18n Support
+i18n:
+  structure: multiple_folders
+  locales: [en, fr]
+  default_locale: en
 
 # Run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
@@ -14,39 +19,44 @@ local_backend: true
 collections:
   - label: "Product"
     name: "products"
-    folder: "src/equipment/products/"
+    folder: "src/equipment/products"
     create: true
     slug: "{{slug}}"
-    filter: {field: "language", value: "en"}
     editor:
       preview: false
+    i18n: true
     fields:
       - label: "Title"
         name: "title"
         widget: "string"
+        i18n: duplicate
       - label: "Description"
         name: "description"
         required: false
         widget: "string"
+        i18n: true
       - label: "Product Type"
-        name: "productTypes"
+        name: "productType"
         widget: "relation"
         collection: "productTypes"
         search_fields: ["title"]
-        display_fields: ["{{title}}"]
-        value_field: "title"
+        display_fields: ["title"]
+        value_field: "{{slug}}"
+        i18n: duplicate
       - label: "Image"
         name: "image"
         widget: "image"
         allow_multiple: false
         choose_url: false
+        i18n: duplicate
       - label: Specifications
         name: "specs"
         widget: list
         collapsed: false
+        i18n: true
         fields:
-          - { label: "Label", name: "label", widget: "string" }
-          - { label: "Value", name: "value", widget: "string" }
+          - { label: "Label", name: "label", widget: "string", i18n: true }
+          - { label: "Value", name: "value", widget: "string", i18n: duplicate }
         default:
           - { label: "Voltage", value: "220 V, 1-phase" }
           - { label: "Power", value: "kW" }
@@ -57,22 +67,43 @@ collections:
     folder: "src/equipment/productTypes/"
     create: true
     slug: "{{slug}}"
-    filter: {field: "language", value: "en"}
     editor:
       preview: false
+    i18n: true
     fields:
       - label: "Title"
         name: "title"
         widget: "string"
+        i18n: true
       - label: "Description"
         name: "description"
         widget: "markdown"
-      - widget: select
-        label: "tags"
+        i18n: true
+      - label: "Product Category"
         name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: ["title"]
+        display_fields: ["title"]
+        value_field: "{{slug}}"
         multiple: true
-        create: true
-        options:
-          - { label: "Packaging", value: "packaging" }
-          - { label: "Baking", value: "baking" }
-          - { label: "Stainless Steel Furniture", value: "ss-furniture" }
+        i18n: duplicate
+  - label: "Product Category"
+    name: "tags"
+    folder: "src/equipment/productCategory/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    i18n: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        i18n: true
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        allow_multiple: false
+        choose_url: false
+        i18n: duplicate
