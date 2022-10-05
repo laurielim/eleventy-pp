@@ -1,4 +1,4 @@
 ---
 title: Packaging
-image: /src/static/images/packaging.jpeg
+image: /src/assets/images/packaging.jpeg
 ---

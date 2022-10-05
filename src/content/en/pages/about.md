@@ -1,7 +1,8 @@
 ---
 title: 'About Performance'
 layout: 'layouts/about.html'
-permalink: '/about-us/index.html'
+permalink: '{{ locale }}/about-us/index.html'
+translationKey: about
 ---
 
 [Performance Plastics Ltd](/plastics) was founded in 1990. It all started inside a 100 m² room in Port Louis, the capital of Mauritius. Now located in the Industrial Zone of Riche Terre, our factory occupies a 3,600 m² building. Performance has grown a lot over the years, which we proudly attribute to our level of service. Our customers know us for our honesty and reliability.

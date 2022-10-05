@@ -1,0 +1,27 @@
+<ul class="lang-switch">
+  {% for lgg in languages %}
+
+    {# set translatedUrl to the homepage of that language by default #}
+    {% set translatedUrl %}/{{lgg.locale}}/{% endset %}
+
+    {# set current language class #}
+    {% set activeClass = "" %}
+    {% set activeAria = "" %}
+    {% if lgg.locale == locale %}
+      {% set activeClass = "is-active" %}
+      {% set activeAria = 'aria-current="page"' | safe %}
+    {% endif %}
+
+    {# loop through all the content of the site #}
+    {% for item in collections.all %}
+      {# check matches #}
+      {% if item.data.translationKey == translationKey and item.data.locale == lgg.locale %}
+        {% set translatedUrl = item.url %}
+      {% endif %}
+    {% endfor%}
+
+    <li class="lang-switch__item">
+      <a class="lang-switch__link  {{ activeClass }}" {{ activeAria }} href="{{ translatedUrl }}">{{ lgg.label }}</a>
+    </li>
+  {% endfor %}
+</ul>

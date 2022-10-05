@@ -2,7 +2,7 @@ backend:
   # Use netlify identity as backend
   name: git-gateway
   branch: main
-media_folder: "src/static/images"
+media_folder: "src/assets/images"
 slug:
   encoding: "ascii"
   clean_accents: true

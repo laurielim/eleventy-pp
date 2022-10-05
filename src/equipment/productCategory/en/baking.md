@@ -1,4 +1,4 @@
 ---
 title: Baking
-image: /src/static/images/baking.jpeg
+image: /src/assets/images/baking.jpeg
 ---

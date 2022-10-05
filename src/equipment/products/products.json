@@ -1,0 +1,4 @@
+{
+  "permalink": "/{{ locale }}/equipment/{{ productType }}/{{ page.fileSlug }}/index.html",
+  "translationKey": "{{ page.fileSlug }}"
+}

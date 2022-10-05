@@ -1,7 +1,7 @@
 ---
 title: SEALCV-1
 productType: continuous-band-sealer
-image: /src/static/images/SEALCV-1.png
+image: /src/assets/images/SEALCV-1.png
 specs:
   - label: Voltage
     value: 220 V, 1-phase

@@ -13,8 +13,8 @@ module.exports = async (
     const imageMetadata = await Image(src, {
       widths: [...widths, null],
       formats: [...formats, null],
-      outputDir: 'public/static/images/optimized',
-      urlPath: '/static/images/optimized',
+      outputDir: 'public/assets/images/optimized',
+      urlPath: '/assets/images/optimized',
     });
 
   const stringifyAttributes = require('../utils/stringify-attributes');

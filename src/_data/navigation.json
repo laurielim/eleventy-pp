@@ -1,25 +1,42 @@
 {
-  "items": [
+  "en": [
     {
       "text": "About",
-      "url": "/about-us/"
+      "url": "/en/about-us/"
     },
     {
       "text": "Equipment",
-      "url": "/equipment/"
+      "url": "/en/equipment/"
     },
     {
       "text": "Plastics",
-      "url": "/plastics/"
+      "url": "/en/plastics/"
     },
     {
       "text": "Contact",
-      "url": "/contact/"
+      "url": "/en/contact/"
+    }
+  ],
+  "fr": [
+    {
+      "text": "À Propos",
+      "url": "/fr/a-propos/"
     },
     {
-      "text": "249 3780",
-      "url": "tel:+2302493780",
-      "isTel": true
+      "text": "Equipment",
+      "url": "/fr/equipment/"
+    },
+    {
+      "text": "Plastiques",
+      "url": "/fr/plastiques/"
+    },
+    {
+      "text": "Contact",
+      "url": "/fr/contact/"
     }
-  ]
+  ],
+  "cta": {
+    "text": "249 3780",
+    "url": "tel:+2302493780"
+  }
 }

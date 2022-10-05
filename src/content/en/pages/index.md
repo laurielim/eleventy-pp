@@ -15,7 +15,8 @@ primaryCTA:
   buttonUrl: "/about-us"
 productCategories:
   title: Product categories
-
+permalink: '{{ locale }}/index.html'
+translationKey: homepage
 ---
 
 ### ISO Certified
