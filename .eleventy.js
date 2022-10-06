@@ -3,6 +3,7 @@ module.exports = (config) => {
   config.addTransform("minify", require("./src/_11ty/transforms/minify"));
 
 	config.addPassthroughCopy('./src/admin/');
+	config.addPassthroughCopy('src/_redirects');
 
   // Shortcodes
   config.addNunjucksAsyncShortcode('image', require('./src/_11ty/shortcodes/imageShortcode'));
