@@ -2,7 +2,7 @@
 title: "Performance Plastics & Equipments"
 layout: "layouts/home.html"
 hero:
-  lead: "Helping your business grow whether you’re bringinga new product to market or ramping up production"
+  lead: "Helping your business grow whether you’re bringing a new product to market or ramping up production."
   cta:
     text: "Explore our products"
     link: "#products"

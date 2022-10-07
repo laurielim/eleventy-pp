@@ -5,9 +5,7 @@ description: "Browse through our equipment catalogue. We have a range of food pr
 image:
   src: src/assets/images/Perfeq.jpeg
   alt: A manual impulse sealer
-hero:
-  lead: Our equipment division trades under the name of Performance Equipment. It offers packaging and food processing machinery. We aim to provide you with quality equipment at a fair price. Whether you are looking for equipment for your own domestic use, a burgeoning business or an established business, we have a range of value products and services to meet your needs.
-productGroup:   []
+lead: Our equipment division trades under the name of Performance Equipment. It offers packaging and food processing machinery. We aim to provide you with quality equipment at a fair price. Whether you are looking for equipment for your own domestic use, a burgeoning business or an established business, we have a range of value products and services to meet your needs.
 layout: "layouts/department-landing.html"
 displayOrder: 2
 permalink: '{{ locale }}/equipment/index.html'

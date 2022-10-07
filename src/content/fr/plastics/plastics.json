@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/about.html",
+  "permalink": "/{{ locale }}/plastique/{{ title | slug }}/index.html",
+  "translationKey": "{{ page.fileSlug }}"
+}
