@@ -2,27 +2,25 @@
 title: "Performance Plastics & Equipments"
 layout: "layouts/home.html"
 hero:
-  lead: "FR: Helping your business grow whether you’re bringinga new product to market or ramping up production"
+  lead: "Nous vous accompagnons dans le développement de vos produits pour améliorer leurs production et positions sur le marché."
   cta:
-    text: "Explore our products"
+    text: "Découvrez nos produits"
     link: "#products"
 primaryCTA:
-  title: "Operating since 1987"
-  summary: "FR: Performance Plastics Ltd started out as a manufacturer of plastic bags, packaging and rolls for a wide variety of applications.
-  We are the leading producer of biodegradable plastic bags in Mauritius. We serve all areas of Mauritius and some regions of Africa.
-  Performance Equipment is a new branch which provides a range of packaging and food processing equipment to help SMEs grow their business."
-  buttonText: "Find out more about our company here"
-  buttonUrl: "/about-us"
+  title: "Donnons form à vos idées​"
+  summary: "Performance vous accompagne pendant que vous démarrez ou développez une activité commerciale. Performance Plastics fabrique des emballages qui vous distinguent et Performance Equipment fourni des équipements qui augmentent l’efficacité de production."
+  buttonText: "En savoir plus sur notre entreprise"
+  buttonUrl: "/fr/a-propos"
 productCategories:
-  title: Product categories
+  title: Notre gamme de produits
 permalink: '{{ locale }}/index.html'
 translationKey: homepage
 ---
 
-### ISO Certified
+### Certifié ISO
 
-Performance Plastics Ltd is among the most reliable companies in Mauritius. We are ISO certified for Quality Management. This guarantees that the products, services and process we use conform to international standards.
+Performance Plastics Ltd est l'une des entreprises les plus fiables de l'île Maurice. Nous sommes certifiés ISO pour la gestion de la qualité. Cela garantit que les produits, services et processus que nous utilisons sont conformes aux normes internationales.
 
 ### 100% Biodegradable
 
-All biodegrable plastic bags we manufacture comply with the laws of Mauritius. Additionally, the materials we use have been attributed the “OK COMPOST” conformity mark issued by TÜV AUSTRIA CERT BMBH.
+Tous les sacs biodégradables que nous fabriquons sont conformes aux lois de Maurice. De plus, les matières premières que nous utilisons ont reçu la marque de conformité «OK COMPOST» émis par TÜV AUSTRIA CERT BMBH.
