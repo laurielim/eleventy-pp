@@ -1,16 +1,11 @@
 <div class="[ product-categories ] [ flow ]">
   <div class="[ wrapper ] [ flow ]">
-    <h2
-      class="[ product-categories__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
-      data-highlight="dark"
-    >
-      {{ productCategories.title }}
-    </h2>
+    <h2>{{ productCategories.title }}</h2>
     <ul>
-      {% for item in collections.productCategories %}
+      {% for item in collections["departments_" + locale] %}
         <li>
           <article>
-            {% image item.data.image.src, item.data.image.alt %}
+            {% image item.data.image, item.data.imageAlt %}
             <h3>{{ item.data.title }}</h3>
             <p>{{ item.data.description }}</p>
             <a

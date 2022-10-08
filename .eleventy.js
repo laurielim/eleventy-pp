@@ -10,10 +10,14 @@ module.exports = (config) => {
 
 	const sortByDisplayOrder = require('./src/_11ty/utils/sort-by-display-order.js');
 
+	// Returns equipment categories in english
+	config.addCollection('equipmentCategory_en', collection => {
+		return collection.getFilteredByGlob('./src/equipment/productCategory/en/*.md');
+	});
 
-	// Returns product categories, sorted by display order
-	config.addCollection('departments_en', collection => {
-		return sortByDisplayOrder(collection.getFilteredByGlob('./src/content/en/*/index.md'));
+	// Returns equipment categories in french
+	config.addCollection('equipmentCategory_fr', collection => {
+		return collection.getFilteredByGlob('./src/equipment/productCategory/fr/*.md');
 	});
 
 

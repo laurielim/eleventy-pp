@@ -2,7 +2,7 @@ const Image = require('@11ty/eleventy-img');
 const { outdent } = require('outdent');
 
 module.exports = async (
-  src,
+  source,
   alt = '',
   isLazy = true,
   className = undefined,
@@ -10,6 +10,9 @@ module.exports = async (
   formats = ['webp', 'jpeg'],
   sizes = '100vw',
   ) => {
+    // Workaround as Netlify CMS saves image source with a slash
+    const src = source.charAt(0) === "/" ? source.substring(1) : source;
+
     const imageMetadata = await Image(src, {
       widths: [...widths, null],
       formats: [...formats, null],
