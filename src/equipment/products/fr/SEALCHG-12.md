@@ -1,6 +1,7 @@
 ---
 description: null
 productType: continuous-band-sealer
+imageAlt: Horizontal continuous band sealer with gas pump
 specs:
   - label: Voltage
     value: 220 V, 1-phase
