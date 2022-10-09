@@ -55,6 +55,11 @@ p {
 	max-width: $max-text-width;
 }
 
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
 button {
 	cursor: pointer;
 	font-family: inherit;

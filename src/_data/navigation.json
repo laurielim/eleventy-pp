@@ -11,6 +11,10 @@
     {
       "text": "Plastics",
       "url": "/en/plastics/"
+    },
+    {
+      "text": "Contact",
+      "url": "/en/contact/"
     }
   ],
   "fr": [
@@ -25,10 +29,10 @@
     {
       "text": "Plastiques",
       "url": "/fr/plastiques/"
+    },
+    {
+      "text": "Contact",
+      "url": "/fr/contact/"
     }
-  ],
-  "cta": {
-    "text": "Tel: 249 3780",
-    "url": "tel:+2302493780"
-  }
+  ]
 }
