@@ -12,7 +12,7 @@ primaryCTA:
   We are the leading producer of biodegradable plastic bags in Mauritius. We serve all areas of Mauritius and some regions of Africa.
   Performance Equipment is a new branch which provides a range of packaging and food processing equipment to help SMEs grow their business."
   buttonText: "Find out more about our company here"
-  buttonUrl: "/about-us"
+  buttonUrl: "/en/about-us"
 productCategories:
   title: Product categories
 permalink: '{{ locale }}/index.html'

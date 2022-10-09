@@ -1,4 +1,6 @@
-{% set ctaPrefix = cta[locale] %} {% if ctaContent %} {% set ctaPrefix = ctaContent %}
+{% set ctaPrefix = cta[locale] %}
+{% if ctaContent %}
+  {% set ctaPrefix = ctaContent %}
 {% endif %}
 
 <article class="cta">
@@ -8,7 +10,7 @@
 		</h2>
 		<p class="cta__summary">{{ ctaPrefix.summary }}</p>
 		<div class="cta__action">
-			<a class="button" data-variant="ghost" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
+			<a class="button" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
 		</div>
 	</div>
 </article>

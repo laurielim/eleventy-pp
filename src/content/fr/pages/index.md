@@ -7,7 +7,7 @@ hero:
     text: "Découvrez nos produits"
     link: "#products"
 primaryCTA:
-  title: "Donnons forme à vos idées​"
+  title: "En activité depuis 1987​"
   summary: "Comptez sur notre expertise pendant que vous démarrez ou développez une activité commerciale. Performance Plastics fabrique des emballages qui vous distinguent et Performance Equipment fourni des équipements qui augmentent l’efficacité de production."
   buttonText: "En savoir plus sur notre entreprise"
   buttonUrl: "/fr/a-propos"

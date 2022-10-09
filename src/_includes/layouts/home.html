@@ -2,16 +2,21 @@
 
 <!-- define block content -->
 {% block content %}
-	<article class="hero">
+	<article class="hero flow">
 		<h1>{{ title }}</h1>
 		<p>{{ hero.lead }}</p>
-		<a href="{{ hero.cta.link }}">{{ hero.cta.text }}</a>
+		<div class="hero__action">
+			<a href="{{ hero.cta.link }}">{{ hero.cta.text }}</a>
+		</div>
 	</article>
 
 	{% set ctaContent = primaryCTA %}
 	{% include "partials/cta.html" %}
 
-	{{ content | safe }}
-
 	{% include "partials/department-card.html" %}
+
+  <article class="flow">
+    {{ content | safe }}
+  </article>
+
 {% endblock %}
