@@ -1,6 +1,14 @@
 {
-	"title": "Get in touch if we seem like a good fit",
-	"summary": "Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.",
-	"buttonText": "Start a new project",
-	"buttonUrl": "/contact/"
+	"en": {
+		"title": "Get in touch",
+		"summary": "Are you looking for more information about our products? Do you need assistance in finding the best solution for your business needs? Our sales team will gladly answer your questions.",
+		"buttonText": "Contact us",
+		"buttonUrl": "/en/contact/"
+	},
+	"fr": {
+		"title": "Vous avez une question?",
+		"summary": "N'hésitez pas à nous la poser par téléphone ou à nous envoyer un mail. Nous sommes là pour vous conseiller.",
+		"buttonText": "Contactez nous",
+		"buttonUrl": "/fr/contact/"
+	}
 }
