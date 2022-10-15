@@ -4,6 +4,7 @@ module.exports = (config) => {
 
 	config.addPassthroughCopy('./src/admin/');
 	config.addPassthroughCopy('src/_redirects');
+	config.addPassthroughCopy('src/assets/brand/');
 
   // Shortcodes
   config.addNunjucksAsyncShortcode('image', require('./src/_11ty/shortcodes/imageShortcode'));
