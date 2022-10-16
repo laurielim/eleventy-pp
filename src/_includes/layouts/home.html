@@ -2,7 +2,7 @@
 
 <!-- define block content -->
 {% block content %}
-	<article class="hero flow">
+	<article class="hero flow wrapper">
 		<h1>{{ title }}</h1>
 		<p>{{ hero.lead }}</p>
 		<div class="hero__action">
@@ -13,9 +13,27 @@
 	{% set ctaContent = primaryCTA %}
 	{% include "partials/cta.html" %}
 
-	{% include "partials/department-card.html" %}
+	<article id="products" class="flow wrapper">
+		<h2>{{ productCategories.title }}</h2>
+		<ul class="flex">
+			{% for departmentContent in collections["departments_" + locale] %}
+			<li>
+				<article class="department-card flow">
+					{% image departmentContent.data.image, departmentContent.data.imageAlt %}
+					<h3>{{ departmentContent.data.title }}</h3>
+					<p>{{ departmentContent.data.description }}</p>
+					<div class="department-card__action">
+						<a  href="{{ departmentContent.url }}" aria-label="{{ departmentContent.data.title }}">
+							Go to {{ departmentContent.data.title }}
+						</a>
+					</div>
+				</article>
+			</li>
+			{% endfor %}
+		</ul>
+	</article>
 
-  <article class="flow">
+  <article class="flow wrapper">
     {{ content | safe }}
   </article>
 
