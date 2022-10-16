@@ -1,3 +1,5 @@
+
+
 module.exports = (config) => {
 	config.addWatchTarget("./src/assets/scss/");
   config.addTransform("minify", require("./src/_11ty/transforms/minify"));
@@ -5,6 +7,10 @@ module.exports = (config) => {
 	config.addPassthroughCopy('./src/admin/');
 	config.addPassthroughCopy('src/_redirects');
 	config.addPassthroughCopy('src/assets/brand/');
+
+	// Filters
+  config.addFilter('localeFilter', require('./src/_11ty/filters/localeFilter'));
+  config.addFilter('productTypeFilter', require('./src/_11ty/filters/productTypeFilter'));
 
   // Shortcodes
   config.addNunjucksAsyncShortcode('image', require('./src/_11ty/shortcodes/imageShortcode'));
@@ -20,6 +26,17 @@ module.exports = (config) => {
 	config.addCollection('equipmentCategory_fr', collection => {
 		return collection.getFilteredByGlob('./src/equipment/productCategory/fr/*.md');
 	});
+
+	// Returns equipments in english
+	config.addCollection('equipment_en', collection => {
+		return collection.getFilteredByGlob('./src/equipment/products/en/*.md');
+	});
+
+	// Returns equipments in french
+	config.addCollection('equipment_fr', collection => {
+		return collection.getFilteredByGlob('./src/equipment/products/fr/*.md');
+	});
+
 
 
 	return {
