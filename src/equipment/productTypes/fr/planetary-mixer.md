@@ -1,5 +1,5 @@
 ---
-title: Planetary mixer
+title: Batteurs mélangeurs
 tags:
   - baking
 ---

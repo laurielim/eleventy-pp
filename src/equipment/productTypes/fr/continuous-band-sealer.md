@@ -1,13 +1,13 @@
 ---
-title: Continuous band sealer
+title: Soudeuses en continu
 tags:
   - packaging
 ---
-A reliable and multipurpose piece of equipment to vastly improve packing speed and effectiveness over the traditional manual impulse sealing machine.
+Un équipement fiable et polyvalent qui améliore considérablement la vitesse et l'efficacité d'emballage. Les sachets sont transportés par le convoyeur durant le cycle de soudure permettant ainsi à l’opérateur de pouvoir se consacrer à l’opération d’ensachage en temps masqué.
 
-Available option:
+Option disponible:
 
-* Print packing date and/ or batch number.
-* Fill the packages with nitrogen gas to preserve food product freshness and quality for a longer time and another option for date coding.
+* Impression de date et numéro de lot.
+* Injection de gaz azote pour augmenter la durée de conservation du produit.
 
-Spare parts and consumables are available for sale.
+Les pièces détachées et consommables sont disponibles à la vente.

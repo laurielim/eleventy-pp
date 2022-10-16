@@ -1,0 +1,48 @@
+{% extends "layouts/base.html" %}
+{% set pageStyle = "css/equipment.css" %}
+
+{% set pageHeaderTitle = title %}
+{% set localizedType = collections[page.fileSlug] | localeFilter(locale) %}
+
+{% block content %}
+  <article class="equipment-category">
+    {% include "partials/page-header.html" %}
+    <div class="equipment-category__content wrapper">
+      <aside class="toc">
+        <h2 class="toc__title">Table of content</h2>
+      </aside>
+      <ul class="equipment-type-list">
+        {% for type in localizedType %}
+          {% set equipmentCollection = collections["equipment_"+locale] | productTypeFilter(type.fileSlug) %}
+          <article class="equipment-type">
+            <h2>{{ type.data.title }}</h2>
+            <div class="flow">
+              {{ type.templateContent | safe }}
+              <ul class="equipment-list flow">
+                {% for equipment in equipmentCollection %}
+                  <li>
+                    <article class="equipment">
+                      <figure class="equipment__image">
+                        {% image equipment.data.image, equipment.data.imageAlt %}
+                      </figure>
+                      <div class="equipment__info visually-hidden">
+                        <h3>{{ equipment.data.title }}</h3>
+                        <ul class="spec-list">
+                          {% for spec in equipment.data.specs %}
+                          <li class="spec">
+                            <span class="spec__label">{{ spec.label }}</span><span>{{ spec.value }}</span>
+                          </li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    </article>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </article>
+        {% endfor %}
+      </ul>
+    </div>
+  </article>
+{% endblock %}
