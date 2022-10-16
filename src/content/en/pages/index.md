@@ -16,7 +16,6 @@ primaryCTA:
 productCategories:
   title: Product categories
 permalink: '{{ locale }}/index.html'
-translationKey: homepage
 ---
 
 ### ISO Certified

@@ -1,7 +1,7 @@
 ---
 title: Performance Plastics
 tagline: "Emballages plastiques standard et sur mesure, adapté à vos besoins"
-description: "Découvrez notre gamme de produits disponibles en stock. Nos produits standard tels que les sacs de caisse, et les sacs pour fruits et légumes sont en vente dans nos locaux. Si vous avez besoin d’un emballage plastique exclusif, nous développons avec vous un emballage sur mesure, parfaitement ajusté à votre produit."
+description: "Découvrez notre gamme de produits disponibles en stock. Nos produits standard tels que les sacs de caisse, et les sacs pour fruits et légumes sont en vente dans nos locaux. Pour un emballage plastique exclusif, nous développons avec vous une solution sur mesure, parfaitement ajusté à votre produit."
 cardCTA: "Voir nos produits plastiques"
 image: src/assets/images/Perfplas.png
 imageAlt: Deux sachets stand up.
@@ -10,7 +10,6 @@ layout: "layouts/department-landing.html"
 tags:
   - departments_fr
 permalink: '{{ locale }}/plastiques/index.html'
-translationKey: plastics
 ---
 
 ## Service sur mesure

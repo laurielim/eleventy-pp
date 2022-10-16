@@ -2,7 +2,6 @@
 title: 'À propos de Performance'
 layout: 'layouts/about.html'
 permalink: '{{ locale }}/a-propos/index.html'
-translationKey: about
 ---
 
 [Performance Plastics Ltd](/fr/plastiques) a commencé ses activités en 1990, dans une salle de 100 m² à Port Louis. L'entreprise s'est beaucoup développée au fil des ans et notre usine occupe désormais un bâtiment de 3 600 m² dans la zone industrielle de Riche Terre. Nous attribuons fièrement notre succès à notre niveau de service. Nos clients nous connaissent pour notre honnêteté et notre fiabilité.

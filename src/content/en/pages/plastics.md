@@ -10,7 +10,6 @@ layout: "layouts/department-landing.html"
 tags:
   - departments_en
 permalink: '{{ locale }}/plastics/index.html'
-translationKey: plastics
 ---
 
 ## Bespoke Service

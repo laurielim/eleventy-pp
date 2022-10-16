@@ -15,7 +15,7 @@
     {# loop through all the content of the site #}
     {% for item in collections.all %}
       {# check matches #}
-      {% if item.data.translationKey == translationKey and item.data.locale == lgg.locale %}
+      {% if item.fileSlug == page.fileSlug | safe and item.data.locale == lgg.locale %}
         {% set translatedUrl = item.url %}
       {% endif %}
     {% endfor%}

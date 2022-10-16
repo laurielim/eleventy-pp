@@ -14,7 +14,6 @@ primaryCTA:
 productCategories:
   title: Notre gamme de produits
 permalink: '{{ locale }}/index.html'
-translationKey: homepage
 ---
 
 ### Certifié ISO

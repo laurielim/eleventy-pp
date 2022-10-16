@@ -13,7 +13,6 @@ layout: "layouts/department-landing.html"
 tags:
   - departments_en
 permalink: '{{ locale }}/equipment/index.html'
-translationKey: equipment
 ---
 
 ## Try Before You Buy!

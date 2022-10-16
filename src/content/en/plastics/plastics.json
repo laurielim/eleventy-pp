@@ -1,5 +1,4 @@
 {
   "layout": "layouts/about.html",
-  "permalink": "/{{ locale }}/plastics/{{ title | slug }}/index.html",
-  "translationKey": "{{ page.fileSlug }}"
+  "permalink": "/{{ locale }}/plastics/{{ title | slug }}/index.html"
 }
