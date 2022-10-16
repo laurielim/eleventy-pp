@@ -11,7 +11,7 @@ primaryCTA:
   summary: "Performance Plastics Ltd started out as a manufacturer of plastic bags, packaging and rolls for a wide variety of applications.
   We are the leading producer of biodegradable plastic bags in Mauritius. We serve all areas of Mauritius and some regions of Africa.
   Performance Equipment is a new branch which provides a range of packaging and food processing equipment to help SMEs grow their business."
-  buttonText: "Find out more about our company here"
+  buttonText: "Find out more<span class='visually-hidden'> about our company here</span>"
   buttonUrl: "/en/about-us"
 productCategories:
   title: Product categories

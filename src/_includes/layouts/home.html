@@ -23,8 +23,8 @@
 					<h3>{{ departmentContent.data.title }}</h3>
 					<p>{{ departmentContent.data.description }}</p>
 					<div class="department-card__action">
-						<a  href="{{ departmentContent.url }}" aria-label="{{ departmentContent.data.title }}">
-							Go to {{ departmentContent.data.title }}
+						<a  href="{{ departmentContent.url }}" aria-label="{{ departmentContent.data.title }}" class="button">
+							{{ departmentContent.data.cardCTA }}
 						</a>
 					</div>
 				</article>
@@ -36,5 +36,8 @@
   <article class="flow wrapper">
     {{ content | safe }}
   </article>
+
+	{% set ctaContent = cta[locale] %}
+	{% include "partials/cta.html" %}
 
 {% endblock %}

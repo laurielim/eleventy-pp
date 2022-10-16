@@ -2,6 +2,7 @@
 title: Performance Equipment
 tagline: Curated investment opportunities to make your business grow
 description: "Browse through our equipment catalogue. We have a range of food processing and packaging equipment, including mixers, ovens and sealing machines. All equipment come with a 1 year warranty and we welcome you to our facility to try our machines before buying."
+cardCTA: "Browse catalogue"
 image: src/assets/images/Perfeq.jpeg
 imageAlt: A manual impulse sealer
 lead: Our equipment division trades under the name of Performance Equipment. It offers packaging and food processing machinery. We aim to provide you with quality equipment at a fair price. Whether you are looking for equipment for your own domestic use, a burgeoning business or an established business, we have a range of value products and services to meet your needs.

@@ -1,0 +1,10 @@
+.cta {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: var(--space-s) 0;
+  display: flex;
+
+  &__action {
+    float: right;
+  }
+}

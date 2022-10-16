@@ -1,7 +1,8 @@
 ---
 title: Performance Equipment
 tagline: Assurez la croissance de votre entreprise et augmentez votre efficacité avec nos equipments
-description: "Parcourez notre catalogue d'équipementa. Nous avons une des équipements de transformation et d'emballage des aliments, ainsi que des produits de réfrigération et de cuisson. Tous les équipements sont garantis 1 an et nous vous invitons dans notre établissement pour essayer nos machines avant d'acheter."
+description: "Parcourez notre catalogue d'équipements. Nous avons des équipements de transformation et d'emballage d'aliments, ainsi que des produits de réfrigération et de cuisson. Tous les équipements sont garantis 1 an et nous vous invitons dans notre établissement pour essayer nos machines avant d'acheter."
+cardCTA: "Voir le catalogue"
 image: src/assets/images/Perfeq.jpeg
 imageAlt: Une soudeuse à impulsion manuelle
 lead: Notre division équipement exerce ses activités sous le nom de Performance Equipment. Elle propose des machines d'emballage et de transformation alimentaire.  Nous nous distinguons par notre service de qualité et nos prix très compétitifs. Que vous recherchiez des équipements pour votre propre usage domestique, une entreprise naissante ou une entreprise établie, nous avons une gamme de produits fiables et de qualité pour répondre à vos besoins.
