@@ -1,10 +1,12 @@
-<div>
-  <h1>
-    {{ pageHeaderTitle }}
-  </h1>
-  {% if pageHeaderSummary %}
-  <p>
-    {{ pageHeaderSummary | safe }}
-  </p>
-  {% endif %}
+<div class="page-header">
+  <div class="wrapper">
+    <h1>
+      {{ pageHeaderTitle }}
+    </h1>
+    {% if pageHeaderSummary %}
+    <p>
+      {{ pageHeaderSummary | safe }}
+    </p>
+    {% endif %}
+  </div>
 </div>
