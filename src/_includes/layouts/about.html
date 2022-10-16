@@ -1,11 +1,14 @@
 {% extends "layouts/base.html" %}
+{% set pageStyle = "css/about.css" %}
 
 {% set pageHeaderTitle = title %}
 
 {% block content %}
-  <article class="flow">
+  <article class="flow about">
     {% include "partials/page-header.html" %}
-    {{ content | safe }}
+    <div class="flow wrapper about__content">
+      {{ content | safe }}
+    </div>
   </article>
 
   {% include "partials/cta.html" %}

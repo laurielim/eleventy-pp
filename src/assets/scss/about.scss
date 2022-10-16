@@ -1,0 +1,9 @@
+@use 'spacing' as *;
+
+@import './components/page-header';
+
+.about {
+   &__content {
+    max-width: max-content;
+   }
+}
