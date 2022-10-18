@@ -9,7 +9,9 @@
     {% include "partials/page-header.html" %}
     <div class="equipment-category__content wrapper">
       <aside class="toc">
-        <h2 class="toc__title">Table of content</h2>
+        <div class="toc__content">
+          <h2 class="toc__title">Table of content</h2>
+        </div>
       </aside>
       <ul class="equipment-type-list">
         {% for type in localizedType %}
@@ -25,7 +27,7 @@
                       <figure class="equipment__image">
                         {% image equipment.data.image, equipment.data.imageAlt %}
                       </figure>
-                      <div class="equipment__info visually-hidden">
+                      <div class="equipment__info">
                         <h3>{{ equipment.data.title }}</h3>
                         <ul class="spec-list">
                           {% for spec in equipment.data.specs %}
