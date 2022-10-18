@@ -1,7 +1,30 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
 
 html {
@@ -38,6 +61,8 @@ h1 {
 h2 {
 	font-size: var(--step-4);
 }
+
+.toc__title,
 h3 {
 	font-size: var(--step-2);
 }
@@ -50,6 +75,9 @@ a,
 p {
 	font-size: var(--step-0);
 	line-height: 1.8;
+}
+
+p {
 	max-width: $max-text-width;
 }
 
