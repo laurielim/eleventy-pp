@@ -10,6 +10,11 @@ layout: "layouts/department-landing.html"
 tags:
   - departments_en
 permalink: '{{ locale }}/plastics/index.html'
+eleventyNavigation:
+  key: Plastics
+  title: Plastics
+  parent: Home
+  order: 200
 ---
 
 ## Bespoke Service

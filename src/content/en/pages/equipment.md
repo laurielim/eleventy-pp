@@ -13,6 +13,11 @@ layout: "layouts/department-landing.html"
 tags:
   - departments_en
 permalink: '{{ locale }}/equipment/index.html'
+eleventyNavigation:
+  key: Equipment
+  title: Equipment
+  parent: Home
+  order: 300
 ---
 
 ## Try Before You Buy!

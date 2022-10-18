@@ -16,6 +16,8 @@ primaryCTA:
 productCategories:
   title: Product categories
 permalink: '{{ locale }}/index.html'
+eleventyNavigation:
+  key: Home
 ---
 
 ### ISO Certified

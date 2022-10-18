@@ -14,6 +14,8 @@ primaryCTA:
 productCategories:
   title: Notre gamme de produits
 permalink: '{{ locale }}/index.html'
+eleventyNavigation:
+  key: Home
 ---
 
 ### Certifié ISO
