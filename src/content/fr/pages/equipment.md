@@ -14,7 +14,7 @@ tags:
   - departments_fr
 permalink: '{{ locale }}/equipment/index.html'
 eleventyNavigation:
-  key: Equipment
+  key: equipment
   title: Équipment
   parent: Home
   order: 300

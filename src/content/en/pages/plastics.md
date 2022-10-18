@@ -11,7 +11,7 @@ tags:
   - departments_en
 permalink: '{{ locale }}/plastics/index.html'
 eleventyNavigation:
-  key: Plastics
+  key: plastics
   title: Plastics
   parent: Home
   order: 200

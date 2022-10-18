@@ -1,0 +1,8 @@
+<ul class="nav__list">
+  {% for entry in navigation %}
+  <li>
+    <a href="{{ entry.url }}" {{ helpers.getLinkActiveState(entry.url, page.url) | safe }}
+      >{{ entry.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

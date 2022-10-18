@@ -5,15 +5,8 @@
       {% include "partials/brand.html" %}
     </a>
     <nav class="site-head__nav nav flex">
-      {% set navPages = collections.all | localeFilter(locale) | eleventyNavigation("Home") %}
-      <ul class="nav__list flex">
-        {% for entry in navPages %}
-        <li>
-          <a href="{{ entry.url }}" {{ helpers.getLinkActiveState(entry.url, page.url) | safe }}
-            >{{ entry.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
+      {% set navigation = collections.all | localeFilter(locale) | eleventyNavigation("Home") %}
+      {% include "partials/navigation.html" %}
       {% include "partials/language-switcher.html" %}
     </nav>
   </div>
