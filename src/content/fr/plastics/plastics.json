@@ -1,4 +1,4 @@
 {
   "layout": "layouts/about.html",
-  "permalink": "/{{ locale }}/plastique/{{ title | slug }}/index.html"
+  "permalink": "/{{ locale }}/plastique/{{ title | slugify }}/index.html"
 }
