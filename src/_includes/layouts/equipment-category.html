@@ -10,7 +10,7 @@
     <div class="equipment-category__content wrapper">
       <aside class="toc">
         <div class="toc__content">
-          <h2 class="toc__title">Table of content</h2>
+          <h2 class="toc__title">{{ 'toc' | i18n }}</h2>
           {{ localizedType | eleventyNavigation(page.fileSlug) | eleventyNavigationToHtml | safe }}
         </div>
       </aside>

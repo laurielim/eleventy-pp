@@ -1,4 +1,6 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const i18n = require('eleventy-plugin-i18n');
+const translations = require('./src/_data/translations');
 
 module.exports = (config) => {
 	config.addWatchTarget("./src/assets/scss/");
@@ -17,6 +19,7 @@ module.exports = (config) => {
 
 	// Plugin
 	config.addPlugin(eleventyNavigationPlugin);
+	config.addPlugin(i18n, translations);
 
 	const sortByDisplayOrder = require('./src/_11ty/utils/sort-by-display-order.js');
 
