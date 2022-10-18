@@ -11,13 +11,14 @@
       <aside class="toc">
         <div class="toc__content">
           <h2 class="toc__title">Table of content</h2>
+          {{ localizedType | eleventyNavigation(page.fileSlug) | eleventyNavigationToHtml | safe }}
         </div>
       </aside>
       <ul class="equipment-type-list">
         {% for type in localizedType %}
           {% set equipmentCollection = collections["equipment_"+locale] | productTypeFilter(type.fileSlug) %}
           <article class="equipment-type">
-            <h2>{{ type.data.title }}</h2>
+            <h2 id="{{ type.data.title | slugify }}">{{ type.data.title }}</h2>
             <div class="flow">
               {{ type.templateContent | safe }}
               <ul class="equipment-list flow">
