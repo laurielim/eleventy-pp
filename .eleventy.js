@@ -1,4 +1,4 @@
-
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = (config) => {
 	config.addWatchTarget("./src/assets/scss/");
@@ -14,6 +14,9 @@ module.exports = (config) => {
 
   // Shortcodes
   config.addNunjucksAsyncShortcode('image', require('./src/_11ty/shortcodes/imageShortcode'));
+
+	// Plugin
+	config.addPlugin(eleventyNavigationPlugin);
 
 	const sortByDisplayOrder = require('./src/_11ty/utils/sort-by-display-order.js');
 
@@ -36,8 +39,6 @@ module.exports = (config) => {
 	config.addCollection('equipment_fr', collection => {
 		return collection.getFilteredByGlob('./src/equipment/products/fr/*.md');
 	});
-
-
 
 	return {
 		markdownTemplateEngine: "njk",
