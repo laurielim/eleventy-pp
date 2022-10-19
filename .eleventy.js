@@ -1,14 +1,15 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const i18n = require('eleventy-plugin-i18n');
 const translations = require('./src/_data/translations');
+const {	fortawesomeFreeRegularPlugin } = require('@vidhill/fortawesome-free-regular-11ty-shortcode');
 
 module.exports = (config) => {
 	config.addWatchTarget("./src/assets/scss/");
   config.addTransform("minify", require("./src/_11ty/transforms/minify"));
 
 	config.addPassthroughCopy('./src/admin/');
-	config.addPassthroughCopy('src/_redirects');
-	config.addPassthroughCopy('src/assets/brand/');
+	config.addPassthroughCopy('./src/_redirects');
+	config.addPassthroughCopy('./src/assets/brand/');
 
 	// Filters
   config.addFilter('localeFilter', require('./src/_11ty/filters/localeFilter'));
@@ -20,6 +21,7 @@ module.exports = (config) => {
 	// Plugin
 	config.addPlugin(eleventyNavigationPlugin);
 	config.addPlugin(i18n, translations);
+	config.addPlugin(fortawesomeFreeRegularPlugin);
 
 	const sortByDisplayOrder = require('./src/_11ty/utils/sort-by-display-order.js');
 
