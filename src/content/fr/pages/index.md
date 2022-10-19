@@ -16,6 +16,7 @@ productCategories:
 permalink: '{{ locale }}/index.html'
 eleventyNavigation:
   key: Home
+  title: Accueil
 ---
 
 ### Certifié ISO

@@ -1,0 +1,8 @@
+<nav class="breadcrumb wrapper">
+  {% set breadcrumb = collections.all
+    | localeFilter(locale)
+    | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true, allowMissing: true })
+    | eleventyNavigationToHtml({listElement: "ol", listClass: "breadcrumb__list"})
+  %}
+  {{ breadcrumb | safe }}
+</nav>
