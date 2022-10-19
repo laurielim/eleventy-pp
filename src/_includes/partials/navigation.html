@@ -1,4 +1,4 @@
-<ul class="nav__list">
+<ul class="nav__list flex">
   {% for entry in navigation %}
   <li>
     <a href="{{ entry.url }}" {{ helpers.getLinkActiveState(entry.url, page.url) | safe }}

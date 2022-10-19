@@ -15,21 +15,21 @@
 
 .site-head {
   &__inner {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
   }
 
   &__nav {
-    padding: $spacing 0;
-    line-height: 1;
+    flex-wrap: wrap-reverse;
     font-weight: 700;
+    line-height: 1;
+    padding: $spacing 0;
 
     .nav__list {
-      column-gap: $spacing-large;
-      display: flex;
-      row-gap: $spacing;
+
+      flex-wrap: wrap;
 
       a {
         text-decoration: none;
