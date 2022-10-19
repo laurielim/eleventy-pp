@@ -11,7 +11,7 @@
       <aside class="toc">
         <div class="toc__content">
           <h2 class="toc__title">{{ 'toc' | i18n }}</h2>
-          {{ localizedType | eleventyNavigation(page.fileSlug) | eleventyNavigationToHtml | safe }}
+          {{ localizedType | eleventyNavigation(page.fileSlug) | eleventyNavigationToHtml({listClass:"toc__list"}) | safe }}
         </div>
       </aside>
       <ul class="equipment-type-list">
