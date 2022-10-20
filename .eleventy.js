@@ -16,7 +16,7 @@ module.exports = (config) => {
   config.addFilter('productTypeFilter', require('./src/_11ty/filters/productTypeFilter'));
 
   // Shortcodes
-  config.addNunjucksAsyncShortcode('image', require('./src/_11ty/shortcodes/imageShortcode'));
+  config.addNunjucksShortcode('image', require('./src/_11ty/shortcodes/imageShortcode'));
 
 	// Plugin
 	config.addPlugin(eleventyNavigationPlugin);
