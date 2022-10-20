@@ -1,0 +1,14 @@
+<article class="equipment-type">
+  <h2 id="{{ type.data.title | slugify }}">{{ type.data.title }}</h2>
+  <div class="flow">
+    {{ type.templateContent | safe }}
+    <ul class="equipment-list flow">
+      {% set equipmentCollection = collections["equipment_"+locale] | productTypeFilter(type.fileSlug) %}
+      {% for equipment in equipmentCollection %}
+      <li>
+        {% include "partials/equipment.html" %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>

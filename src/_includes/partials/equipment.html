@@ -1,0 +1,15 @@
+<article class="equipment">
+  <figure class="equipment__image">
+    {% image equipment.data.image, equipment.data.imageAlt %}
+  </figure>
+  <div class="equipment__info">
+    <h3>{{ equipment.data.title }}</h3>
+    <ul class="spec-list">
+      {% for spec in equipment.data.specs %}
+      <li class="spec">
+        <span class="spec__label">{{ spec.label }}</span><span>{{ spec.value }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
