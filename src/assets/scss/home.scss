@@ -1,0 +1,130 @@
+@use 'spacing' as *;
+
+.hero {
+  margin-bottom: $spacing-2x-large;
+  margin-top: $spacing-large;
+
+  &__title {
+    font-size: var(--step-2);
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+
+    span.prominent {
+      display: block;
+      font-size: clamp(3.11rem, calc(2.58rem + 2.67vw), 4.2rem);
+
+    }
+  }
+
+  &__lead {
+    font-size: var(--step-1);
+  }
+
+  @media screen and (min-width: $large) {
+    align-items: flex-end;
+    column-gap: $spacing-2x-large;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.departments,
+.features {
+  margin-top: $spacing-2x-large;
+}
+
+.departments {
+  &__list {
+    display: grid;
+    row-gap: $spacing;
+
+    .card {
+      &__title {
+        text-transform: uppercase;
+      }
+
+      &__action {
+        text-align: right;
+      }
+    }
+
+    @media screen and (min-width: $large) {
+      column-gap: $spacing-large;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (min-width: $max-content-width) {
+      li:first-child {
+        margin-bottom: $spacing-2x-large;
+        margin-top: 30%;
+      }
+
+      .card {
+        display: grid;
+        grid-template-areas: "a"
+                             "b"
+                             "c";
+        &__title {
+          grid-area: a;
+        }
+        &__picture,
+        &__description {
+          grid-area: b;
+        }
+        &__action {
+          grid-area: c;
+        }
+
+        &__description {
+          background-color: rgba(0, 48, 130, 0.9);
+          color: var(--color-white);
+          font-size: var(--step-1);
+          opacity: 0;
+          padding: $spacing-large $spacing-2x-large;
+          transition: 0.25s;
+
+          &:hover,
+          &:active {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.features {
+  margin-bottom: $spacing-2x-large;
+  .card {
+    padding: $spacing-large;
+
+    &:first-child {
+      background-color: var(--color-accent-2);
+      border-radius: 0.25rem;
+    }
+
+    @media screen and (min-width: $medium) {
+      column-gap: $spacing-large;
+      display: grid;
+      grid-template-areas: "a b b"
+                           "a c c"
+                           "a d d";
+      grid-template-columns: 250px auto auto;
+      &__title {
+        grid-area: b;
+      }
+      &__picture {
+        margin-top: 0;
+        grid-area: a;
+        justify-self: center;
+      }
+      &__description {
+        grid-area: c;
+      }
+      &__action {
+        grid-area: d;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<article class="card flow">
+  <h3 class="card__title">{{ cardContent.title }}</h3>
+  {% if cardContent.image|length and cardContent.imageAlt|length %}
+  <div class="card__picture">
+    {% image cardContent.image, cardContent.imageAlt, 'true', 'card__image' %}
+  </div>
+  {% endif %}
+  <p class="card__description">{{ cardContent.description }}</p>
+  <div class="card__action">
+    <a  href="{{ cardCtaLink }}" aria-label="{{ cardContent.title }}" class="button">
+      {{ cardContent.cardCTA | safe }}
+    </a>
+  </div>
+</article>
