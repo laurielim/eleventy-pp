@@ -1,40 +1,42 @@
 {% extends "layouts/base.html" %}
+{% set pageStyle = "css/home.css" %}
 
 <!-- define block content -->
 {% block content %}
 	<article class="hero flow wrapper">
-		<h1>{{ title }}</h1>
-		<p>{{ hero.lead }}</p>
-		<div class="hero__action">
-			<a href="{{ hero.cta.link }}">{{ hero.cta.text }}</a>
-		</div>
+		<h1 class="hero__title">
+			{{ hero.perf }} <br>
+			<span class="prominent">{{ hero.plas }} &</span>
+			<span class="prominent">{{ hero.equip }}</span>
+		</h1>
+		<p class="hero__lead">{{ hero.lead }}</p>
 	</article>
 
 	{% set ctaContent = primaryCTA %}
 	{% include "partials/cta.html" %}
 
-	<article id="products" class="flow wrapper">
-		<h2>{{ productCategories.title }}</h2>
-		<ul class="flex">
+	<article class="departments flow wrapper">
+		<h2 class="departments__title visually-hidden">{{ productCategories.title }}</h2>
+		<ul class="departments__list">
 			{% for departmentContent in collections["departments_" + locale] %}
-			<li>
-				<article class="department-card flow">
-					{% image departmentContent.data.image, departmentContent.data.imageAlt %}
-					<h3>{{ departmentContent.data.title }}</h3>
-					<p>{{ departmentContent.data.description }}</p>
-					<div class="department-card__action">
-						<a  href="{{ departmentContent.url }}" aria-label="{{ departmentContent.data.title }}" class="button">
-							{{ departmentContent.data.cardCTA }}
-						</a>
-					</div>
-				</article>
-			</li>
+				{% set cardContent = departmentContent.data %}
+				{% set cardCtaLink = departmentContent.url %}
+				<li>
+					{% include "partials/card.html" %}
+				</li>
 			{% endfor %}
 		</ul>
 	</article>
 
-  <article class="flow wrapper">
-    {{ content | safe }}
+  <article class="flow wrapper features">
+		<h2 class="features__title visually-hidden">{{ features.title }}</h2>
+		<div class="features__container">
+			{% for feature in features.list %}
+				{% set cardContent = feature %}
+				{% set cardCtaLink = feature.cardCtaLink %}
+				{% include "partials/card.html" %}
+			{% endfor %}
+		</div>
   </article>
 
 	{% set ctaContent = cta[locale] %}
