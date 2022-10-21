@@ -1,3 +1,18 @@
-<footer>
-    <p class="copyright-text">{{ helpers.getCurrentYear() }} © Laurie Lim Sam</p>
+<footer class="site-footer">
+    <div class="wrapper">
+        <nav>
+            <h2 class="visually-hidden">Site navigation</h2>
+            {% set departments = collections['departments_'+locale] | eleventyNavigation('Home') %}
+            <ul class="footer-nav">
+                {% for dep in departments %}
+                <li>
+                    <h3><a href="{{ dep.url }}">Performance {{ dep.key }}</a></h3>
+                    {% set navigation = collections[dep.key+'Category_'+locale] | eleventyNavigation(dep.key) %}
+                    {% include "partials/navigation.html" %}
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <p class="copyright-text">{{ helpers.getCurrentYear() }} © <a href="https://laurielim.github.io">Laurie Lim Sam</a></p>
+    </div>
 </footer>

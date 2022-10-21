@@ -1,7 +1,8 @@
 ---
 title: SEALCH-1
-description: null
 productType: continuous-band-sealer
+image: /src/assets/images/SEALCH-1.png
+imageAlt: Horizontal continuous band sealer
 specs:
   - label: Voltage
     value: 220 V, 1-phase

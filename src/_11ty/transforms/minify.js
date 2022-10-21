@@ -4,6 +4,8 @@ const htmlmin = require("./htmlmin");
 const jsmin = require("./jsmin");
 
 module.exports = async (content, outputPath) => {
+  if (!outputPath) return content;
+
   const ext = extname(outputPath);
   switch (ext) {
     case ".html":

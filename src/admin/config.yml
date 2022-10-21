@@ -43,12 +43,19 @@ collections:
         display_fields: ["title"]
         value_field: "{{slug}}"
         i18n: duplicate
+        required: true
       - label: "Image"
         name: "image"
         widget: "image"
         allow_multiple: false
         choose_url: false
         i18n: duplicate
+        required: true
+      - label: "Image Alt"
+        name: "imageAlt"
+        widget: "string"
+        i18n: true
+        required: true
       - label: Specifications
         name: "specs"
         widget: list
@@ -76,7 +83,7 @@ collections:
         widget: "string"
         i18n: true
       - label: "Description"
-        name: "description"
+        name: "body"
         widget: "markdown"
         i18n: true
       - label: "Product Category"
@@ -88,6 +95,7 @@ collections:
         value_field: "{{slug}}"
         multiple: true
         i18n: duplicate
+        required: true
   - label: "Product Category"
     name: "tags"
     folder: "src/equipment/productCategory/"
@@ -107,3 +115,9 @@ collections:
         allow_multiple: false
         choose_url: false
         i18n: duplicate
+        required: true
+      - label: "Image Alt"
+        name: "imageAlt"
+        widget: "string"
+        i18n: true
+        required: true

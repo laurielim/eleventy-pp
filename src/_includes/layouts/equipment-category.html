@@ -1,0 +1,24 @@
+{% extends "layouts/base.html" %}
+{% set pageStyle = "css/equipment.css" %}
+
+{% set pageHeaderTitle = title %}
+{% set localizedType = collections[page.fileSlug] | localeFilter(locale) %}
+
+{% block content %}
+  <article class="equipment-category">
+    {% include "partials/page-header.html" %}
+    <div class="equipment-category__content wrapper">
+      <aside class="toc">
+        <div class="toc__content">
+          <h2 class="toc__title">{{ 'toc' | i18n }}</h2>
+          {{ localizedType | eleventyNavigation(page.fileSlug) | eleventyNavigationToHtml({listClass:"toc__list"}) | safe }}
+        </div>
+      </aside>
+      <ul class="equipment-type-list">
+        {% for type in localizedType %}
+          {% include "partials/equipment-type.html" %}
+        {% endfor %}
+      </ul>
+    </div>
+  </article>
+{% endblock %}

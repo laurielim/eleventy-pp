@@ -1,0 +1,38 @@
+.flex {
+  column-gap: $spacing-large;
+	display: flex;
+  row-gap: $spacing;
+}
+
+.flow > * + * {
+	margin-top: $spacing-small;
+}
+
+.sticky-footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  > main {
+    flex-grow: 1;
+  }
+}
+
+.wrapper {
+	margin-left: auto;
+  margin-right: auto;
+	max-width: $max-container-width;
+	padding: $spacing $spacing-large;
+  position: relative;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}

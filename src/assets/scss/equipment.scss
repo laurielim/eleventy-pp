@@ -1,0 +1,63 @@
+@use 'spacing' as *;
+
+@import './components/page-header';
+
+.equipment-category {
+  &__content {
+    column-gap: $spacing-large;
+    display: grid;
+    row-gap: $spacing;
+
+    .toc {
+      &__content {
+        background-color: var(--color-accent-2);
+        border-radius: 0.25rem;
+        margin-top: $spacing;
+        max-width: 500px;
+        padding: $spacing;
+        top: $spacing;
+        position: sticky;
+      }
+
+      &__list {
+        list-style-type: disc;
+        margin-left: $spacing-medium;
+        color: var(--color-primary);
+
+        a {
+          text-decoration: none;
+
+          &:active,
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: $large) {
+      grid-template-columns: repeat(3, 1fr);
+      .equipment-type-list {
+        grid-column: 2/span 2;
+      }
+    }
+
+  }
+}
+
+.spec-list {
+  .spec {
+    display: grid;
+    column-gap: $spacing;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+
+    &__label {
+      font-weight: 600;
+    }
+  }
+
+  @media screen and (min-width: $large) {
+    columns: 2;
+    column-fill: balance;
+  }
+}

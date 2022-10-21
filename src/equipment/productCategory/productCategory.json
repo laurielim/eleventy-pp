@@ -1,4 +1,4 @@
 {
-  "permalink": "/{{ locale }}/equipment/{{ title | slug }}/index.html",
-  "translationKey": "{{ page.fileSlug }}"
+  "layout": "layouts/equipment-category.html",
+  "permalink": "/{{ locale }}/equipment/{{ title | slugify }}/index.html"
 }

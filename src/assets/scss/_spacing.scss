@@ -8,9 +8,10 @@ $spacing-2x-large: var(--space-2xl);
 
 // max container width
 $max-content-width: 1200px;
+$max-text-width: 73ch;
 $max-container-width: calc(#{$max-content-width} + #{$spacing-2x-large});
 
 // media queries
 $small: 576px;
 $medium: 756px;
-$large: 1200px;
+$large: 960px;

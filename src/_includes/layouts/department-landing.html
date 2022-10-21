@@ -7,29 +7,29 @@
   <article>
     {% include "partials/page-header.html" %}
   </article>
-  <div class="[ panel dot-shadow ] [ bg-tertiary-glare ]">
-    <div class="wrapper">
-      <article class="[ productGroup ] [ flow flow-space-800 ]">
-        {% for item in departments %}
-        <figure class="[ productGroup__item ] [ flow ]">
-          <div class="[ productGroup__media ] [ frame ]" data-frame="primary">
-            {% image
-              item.imageSrc,
-              item.imageAlt
-            %}
-          </div>
-          <figcaption class="[ productGroup__content ] [ flow ]">
-            <a href="{{ item.url }}" class="[ productGroup__heading ]">
-              <h3>{{ item.title }}</h3>
-            </a>
-          </figcaption>
-        </figure>
-        {% endfor %}
-      </article>
-    </div>
-  </div>
-
-  {{ content | safe }}
+  <article>
+    <h2>{{ productCategories.title  }}</h2>
+    <ul class="flex">
+      {% for item in collections[productCategories.collection] %}
+      <figure>
+        <div>
+          {% image
+            item.data.image,
+            item.data.imageAlt
+          %}
+        </div>
+        <figcaption>
+          <a href="{{ item.url }}">
+            <h3>{{ item.data.title }}</h3>
+          </a>
+        </figcaption>
+      </figure>
+      {% endfor %}
+    </ul>
+  </article>
+  <article class="flow">
+    {{ content | safe }}
+  </article>
 
   {% include "partials/cta.html" %}
 

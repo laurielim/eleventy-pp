@@ -1,7 +1,30 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
 
 html {
@@ -9,13 +32,13 @@ html {
 }
 
 body {
-	background-color: #f8f6f1;
-	color: #211e1c;
+	background-color: var(--color-white);
+	color: var(--color-black);
 	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-		helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
-	margin: 0 auto;
-	max-width: $max-container-width;
-	transition: background-color 500ms ease-in-out, color 200ms ease;
+	helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	line-height: 1.5;
+	min-height: 100vh;
+  text-rendering: optimizeSpeed;
 	width: 100%;
 }
 
@@ -32,16 +55,14 @@ body {
 	}
 }
 
-main * + * {
-	margin-top: $spacing;
-}
-
 h1 {
-	font-size: var(--step-4);
-}
-h2 {
 	font-size: var(--step-3);
 }
+h2 {
+	font-size: var(--step-4);
+}
+
+.toc__title,
 h3 {
 	font-size: var(--step-2);
 }
@@ -56,6 +77,15 @@ p {
 	line-height: 1.8;
 }
 
+p {
+	max-width: $max-text-width;
+}
+
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
 button {
 	cursor: pointer;
 	font-family: inherit;
@@ -63,42 +93,18 @@ button {
 }
 
 img {
+	border-radius: 0.25rem;
 	display: block;
 	height: auto;
   max-width: 100%;
 }
 
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
 :focus-visible {
 	outline: 3px dashed;
 	outline-offset: 2px;
-}
-
-.visually-hidden:not(:focus):not(:active) {
-	clip: rect(0 0 0 0);
-	-webkit-clip-path: inset(50%);
-	clip-path: inset(50%);
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-}
-
-.link-button:hover,
-[href]:hover {
-	text-decoration: none;
-}
-
-.page-wrapper {
-	padding: $spacing $spacing-large;
-}
-
-.sticky-footer {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-
-  > main {
-    flex-grow: 1;
-  }
 }
