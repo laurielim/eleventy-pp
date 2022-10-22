@@ -1,6 +1,9 @@
 ---
 title: Performance Equipment
-tagline: Curated investment opportunities to make your business grow
+logo:
+  image: src/assets/images/PerfEq_Logo.png
+  imageAlt: Perf Eq Logo
+tagline: Curated investment opportunities to make your business grow.
 description: "Browse through our equipment catalogue. We have a range of food processing and packaging equipment, including mixers, ovens and sealing machines. All equipment come with a 1 year warranty and we welcome you to our facility to try our machines before buying."
 cardCTA: "Browse catalogue"
 image: src/assets/images/Perfeq.jpeg

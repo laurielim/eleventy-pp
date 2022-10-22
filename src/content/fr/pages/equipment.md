@@ -1,6 +1,9 @@
 ---
 title: Performance Equipment
-tagline: Assurez la croissance de votre entreprise et augmentez votre efficacité avec nos equipments
+logo:
+  image: src/assets/images/PerfEq_Logo.png
+  imageAlt: Logo Perf Eq
+tagline: Assurez la croissance de votre entreprise et augmentez votre efficacité avec nos equipments.
 description: "Parcourez notre catalogue d'équipements. Nous avons des équipements de transformation et d'emballage d'aliments, ainsi que des produits de réfrigération et de cuisson. Tous les équipements sont garantis 1 an et nous vous invitons dans notre établissement pour essayer nos machines avant d'acheter."
 cardCTA: "Voir le catalogue"
 image: src/assets/images/Perfeq.jpeg
