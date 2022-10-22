@@ -1,7 +1,9 @@
 @use 'spacing' as *;
 
+@import './components/feature-list';
+
 .hero {
-  margin-bottom: $spacing-2x-large;
+  margin-bottom: $spacing-large;
   margin-top: $spacing-large;
 
   &__header {
@@ -64,6 +66,7 @@
           border-bottom-left-radius: 0;
           border-bottom-right-radius: 0;
           margin: 0 auto;
+          width: 100%;
         }
       }
 
@@ -115,5 +118,23 @@
         z-index: 15;
       }
     }
+  }
+}
+
+.features,
+.content {
+  margin: $spacing-large auto;
+  margin-bottom: $spacing-2x-large;
+  width: fit-content;
+
+  * + h3 {
+    margin-top: $spacing-extra-large;
+  }
+}
+
+.content {
+  .rogers-capital-logo {
+    margin-top: $spacing-extra-large;
+    max-width: 320px;
   }
 }

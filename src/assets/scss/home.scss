@@ -1,5 +1,7 @@
 @use 'spacing' as *;
 
+@import './components/feature-list';
+
 .hero {
   margin-bottom: $spacing-2x-large;
   margin-top: $spacing-large;
@@ -90,8 +92,8 @@
   }
 }
 
+
 .features {
-  margin-bottom: $spacing-2x-large;
   .card {
     padding: $spacing-large;
 
@@ -102,25 +104,10 @@
     }
 
     @media screen and (min-width: $medium) {
-      column-gap: $spacing-large;
-      display: grid;
-      grid-template-areas: "a b b"
-                           "a c c"
-                           "a d d";
-      grid-template-columns: 250px auto auto;
+      grid-template-columns: 250px 1fr 1fr;
+
       &__title {
-        grid-area: b;
-      }
-      &__picture {
         margin-top: 0;
-        grid-area: a;
-        justify-self: center;
-      }
-      &__description {
-        grid-area: c;
-      }
-      &__action {
-        grid-area: d;
       }
     }
   }

@@ -23,22 +23,28 @@ eleventyNavigation:
   order: 300
 ---
 
-## Try Before You Buy!
-Come to our facilities for a hands on demonstration of our equipment before investing. This service is absolutely free!
+<h2 class="visually-hidden">Our services</h2>
 
-During the demonstration, we will answer any questions you may have regarding our equipment. Our facilities are at your disposal for you to test your own product or recipe. Hence you will have a better understanding of how to integrate our equipment into your production process.
+### *Try Before You Buy!*
+Come to our facilities for a hands on demonstration of our equipment before investing. This service is absolutely free! Our facilities are at your disposal for you to test your own product or recipe.
+
+Get a better understanding of how to integrate our equipment into your production process.
 
 <a href="mailto:equipment@performance.mu" class="button">Request a demo</a>
 
-## Rogers Capital
+<h3 class="visually-hidden">Rogers Capital</h3>
+{% image "src/assets/images/rogers-capital-logo.jpeg", "Rogers Capital", true, "rogers-capital-logo" %}
+
 We have partnered with Rogers Capital to provide you with credit payment facilities. Application is made directly from our office and amount eligibility is determined within 20 minutes.
 
 Please enquire for more information.
 
 <a href="https://www.rogerscapital.mu/credit/credit/" class="button">Learn more</a>
 
-## Services & After Sales Support
-We are confident in the quality of our equipment and after sales service and so provide a 1 year warranty on our entire range of products. Through our 1 year warranty and beyond, we provide you with the maintenance and servicing of your equipment, and with spare parts and consumables you need to operate smoothly.
+### Services & After Sales Support
+We are confident in the quality of our equipment and after sales service and so provide a 1 year warranty on our entire range of products.
+
+Through our 1 year warranty and beyond, we provide you with the maintenance and servicing of your equipment, and with spare parts and consumables you need to operate smoothly.
 
 Our team of qualified technicians are here to assist you with the training and optimal upkeep of your equipment.
 

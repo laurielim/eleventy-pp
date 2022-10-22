@@ -47,9 +47,18 @@
       {% endfor %}
     </ul>
   </article>
-  <article class="flow">
+
+  {% if features %}
+    {% include "partials/feature-list.html" %}
+  {% endif %}
+
+  {% if content %}
+   <article class="content wrapper flow">
     {{ content | safe }}
-  </article>
+   </article>
+  {% endif %}
+
+
 
   {% include "partials/cta.html" %}
 

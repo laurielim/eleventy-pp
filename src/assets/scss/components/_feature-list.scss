@@ -1,0 +1,41 @@
+.features {
+  margin-bottom: $spacing-2x-large;
+  .card {
+    + .card {
+      margin-top: $spacing-large;
+    }
+
+    &__picture {
+      img {
+        margin: 0 auto;
+      }
+    }
+
+    @media screen and (min-width: $medium) {
+      column-gap: $spacing-large;
+      display: grid;
+      grid-template-areas: "a b b"
+                           "a c c"
+                           "a d d"
+                           "a e e";
+      grid-template-columns: repeat(3, 1fr);
+      //grid-template-rows: $spacing-2x-large auto $spacing-2x-large;
+
+      &__title {
+        margin-top: $spacing;
+        grid-area: b;
+      }
+      &__picture {
+        margin-top: 0;
+        grid-area: a;
+        justify-self: center;
+      }
+      &__description {
+        grid-area: c;
+      }
+      &__action {
+        grid-area: d;
+      }
+    }
+  }
+}

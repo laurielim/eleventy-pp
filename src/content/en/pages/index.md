@@ -23,7 +23,7 @@ features:
     image: "src/assets/images/certified-aja-iso.jpeg"
     imageAlt: "ISO 9001 certification logo"
     description: "Performance Plastics Ltd is among the most reliable companies in Mauritius. We are ISO certified for Quality Management. This guarantees that the products, services and process we use conform to international standards."
-    cardCTA: "Learn more <span class='visually-hidden'>ISO certification</span>"
+    cardCTA: "Learn more<span class='visually-hidden'> about ISO certification</span>"
     cardCtaLink: "//www.iso.org/about-us.html"
   - title: 100% Biodegradable
     image: "src/assets/images/certified-ok-compost.png"
