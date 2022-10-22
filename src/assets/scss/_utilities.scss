@@ -36,3 +36,9 @@
 	white-space: nowrap;
 	width: 1px;
 }
+
+.prominent {
+	display: block;
+	font-size: clamp(3.11rem, calc(2.58rem + 2.67vw), 4.2rem);
+
+}

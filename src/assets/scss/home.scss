@@ -9,12 +9,6 @@
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-
-    span.prominent {
-      display: block;
-      font-size: clamp(3.11rem, calc(2.58rem + 2.67vw), 4.2rem);
-
-    }
   }
 
   &__lead {
@@ -37,7 +31,7 @@
 .departments {
   &__list {
     display: grid;
-    row-gap: $spacing;
+    row-gap: $spacing-2x-large;
 
     .card {
       &__title {
@@ -79,9 +73,11 @@
         &__description {
           background-color: rgba(0, 48, 130, 0.9);
           color: var(--color-white);
+          display: grid;
           font-size: var(--step-1);
           opacity: 0;
-          padding: $spacing-large $spacing-2x-large;
+          padding: 0 $spacing-2x-large;
+          place-content: center;
           transition: 0.25s;
 
           &:hover,
@@ -102,6 +98,7 @@
     &:first-child {
       background-color: var(--color-accent-2);
       border-radius: 0.25rem;
+      margin-bottom: $spacing-large;
     }
 
     @media screen and (min-width: $medium) {

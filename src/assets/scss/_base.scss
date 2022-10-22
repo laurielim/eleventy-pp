@@ -9,6 +9,10 @@
 ul,
 ol {
   padding: 0;
+
+	&:not([class]) {
+		margin-left: $spacing;
+	}
 }
 
 /* Remove default margin */
