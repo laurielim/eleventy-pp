@@ -10,22 +10,23 @@
 }
 
 .brand {
-  max-width: 120px;
+  width: 120px;
 }
 
 .site-head {
   &__inner {
     align-items: center;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  &__brand {
+    align-self: flex-start;
   }
 
   &__nav {
     flex-wrap: wrap-reverse;
     font-weight: 700;
     line-height: 1;
-    padding: $spacing 0;
 
     .nav__list {
 

@@ -75,6 +75,7 @@
 
         &::after,
         &::before {
+          border-radius: 0.25rem;
           content: '';
           cursor: pointer;
           display: block;
@@ -127,7 +128,7 @@
   margin-bottom: $spacing-2x-large;
   width: fit-content;
 
-  * + h3 {
+  > *:not(h2) + h3 {
     margin-top: $spacing-extra-large;
   }
 }
