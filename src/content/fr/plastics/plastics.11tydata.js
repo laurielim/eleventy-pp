@@ -1,6 +1,6 @@
 module.exports = {
   layout: "layouts/plastics-category.html",
-  permalink: "/{{ locale }}/plastics/{{ title | slugify }}/index.html",
+  permalink: "/{{ locale }}/plastiques/{{ title | slugify }}/index.html",
   eleventyComputed: {
     eleventyNavigation: {
       key: data => data.page.fileSlug,

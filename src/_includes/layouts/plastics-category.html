@@ -1,0 +1,34 @@
+{% extends "layouts/base.html" %}
+{% set pageStyle = "css/plastics.css" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+  <article class="plastics-category flow">
+    {% include "partials/page-header.html" %}
+    <div class="flow wrapper plastics-category__content">
+      {% if description | length %}
+        <p class="plastics-category__description">
+          {{ description }}
+        </p>
+      {% endif %}
+
+      {% if page.fileSlug === "plastic-packaging" %}
+        <div class="plastics-category__plastic-packaging">
+          {% include "partials/plastic-packaging.html" %}
+        </div>
+      {% else %}
+        <div class="plastics-category__products">
+          {% for product in products %}
+            {% include "partials/plastic.html" %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <p class="plastics-category__cta">
+        {{ 'plasticsCta' | i18n | safe }}
+      </p>
+    </div>
+    {% include "partials/cta.html" %}
+  </article>
+{% endblock %}

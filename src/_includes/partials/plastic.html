@@ -1,0 +1,11 @@
+<article class="plastic">
+  <h2 class="plastic__title">{{ product.title }}</h2>
+  {% if product.subtitle | length %}
+    <p class="plastic__subtitle">{{ product.subtitle }}</p>
+  {% endif %}
+  <ul class="plastic__specs">
+    {% for spec in product.specs %}
+      <li class="plastic__spec">{{ spec }}</li>
+    {% endfor %}
+  </ul>
+</article>
