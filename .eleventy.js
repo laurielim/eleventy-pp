@@ -25,6 +25,16 @@ module.exports = (config) => {
 
 	const sortByDisplayOrder = require('./src/_11ty/utils/sort-by-display-order.js');
 
+	// Returns plastic categories in english
+	config.addCollection('plasticsCategory_en', collection => {
+		return collection.getFilteredByGlob('./src/content/en/plastics/*.md');
+	});
+
+	// Returns plastic categories in french
+	config.addCollection('plasticsCategory_fr', collection => {
+		return collection.getFilteredByGlob('./src/content/fr/plastics/*.md');
+	});
+
 	// Returns equipment categories in english
 	config.addCollection('equipmentCategory_en', collection => {
 		return collection.getFilteredByGlob('./src/equipment/productCategory/en/*.md');
