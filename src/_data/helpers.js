@@ -28,5 +28,15 @@ module.exports = {
    */
      getCurrentYear() {
       return /\d{4}/.exec(Date())[0];
-    }
+    },
+
+  /**
+   * Given a string determine if the
+   *
+   * @param {String} item The page context
+   * @returns {Boolean} The attributes or empty
+   */
+ isLastCharNaN(item) {
+  return isNaN(item.slice(-1))
+}
 };

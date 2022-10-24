@@ -1,8 +1,22 @@
 @use 'spacing' as *;
 
 @import './components/page-header';
+@import './components/toc';
 
 .plastics-category {
+  &__plastic-packaging {
+    column-gap: $spacing-large;
+    display: grid;
+    row-gap: $spacing;
+
+    @media screen and (min-width: $large) {
+      grid-template-columns: repeat(3, 1fr);
+      .plastic-packaging__container {
+        grid-column: 2/span 2;
+      }
+    }
+  }
+
   &__products {
     column-gap: $spacing-medium;
     display: grid;
@@ -11,13 +25,23 @@
   }
 
   @media screen and (min-width: $large) {
-
     &__cta {
       margin-left: 35%;
       margin-right: 8%;
       margin-top: $spacing-extra-large;
     }
   }
+}
+
+.plastic__specs,
+.plastic-packaging__product-list {
+  list-style: "➜ ";
+    margin-left: $spacing-medium;
+
+    li::marker {
+      color: var(--color-primary);
+      margin-right: $spacing;
+    }
 }
 
 .plastic {
@@ -33,14 +57,19 @@
     font-size: var(--step-1);
     font-weight: 600;
   }
+}
 
-  &__specs {
-    list-style: "➜ ";
-    margin-left: $spacing-medium;
+.plastic-packaging {
+  &__product-list {
+    column-count: 2;
+    column-fill: balance;
 
-    li::marker {
-      color: var(--color-primary);
-      margin-right: $spacing;
+    @media screen and (min-width: $medium) {
+      column-count: 3;
+    }
+
+    @media screen and (min-width: $medium) {
+      column-count: 4;
     }
   }
 }
