@@ -4,11 +4,11 @@
     <ul class="toc__list">
       {% for material in materials %}
         <li>
-          <a href="{{ material.id }}">{{ material.title }}</a>
+          <a href="#{{ material.id }}">{{ material.title }}</a>
           <ul>
             {% for type in material.types %}
               <li>
-                <a href="{{ type.id }}">{{ type.title }}</a>
+                <a href="#{{ type.id }}">{{ type.title }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -32,7 +32,7 @@
                 {% if variation.thickness %}
                   {{ 'thickness' | i18n }}: {{ variation.thickness }} Microns |
                 {% endif %}
-                {{ 'sizes' | i18n }}
+                {{ 'sizes' | i18n }}:
               </h4>
               <ul class="plastic-packaging__product-list">
                 {% for item in plasticPackagings[variation.prodList] %}
