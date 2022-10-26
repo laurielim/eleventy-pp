@@ -8,6 +8,10 @@
 	margin-top: $spacing-small;
 }
 
+.flow--xl > * + * {
+	margin-top: $spacing-extra-large;
+}
+
 .sticky-footer {
   display: flex;
   flex-direction: column;

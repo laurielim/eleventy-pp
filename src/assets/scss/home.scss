@@ -25,11 +25,6 @@
   }
 }
 
-.departments,
-.features {
-  margin-top: $spacing-2x-large;
-}
-
 .departments {
   &__list {
     display: grid;
@@ -52,7 +47,7 @@
 
     @media screen and (min-width: $max-content-width) {
       li:first-child {
-        margin-bottom: $spacing-2x-large;
+        margin-bottom: $spacing-large;
         margin-top: 30%;
       }
 
@@ -94,6 +89,7 @@
 
 
 .features {
+  margin-bottom: $spacing-2x-large;
   .card {
     padding: $spacing-large;
 

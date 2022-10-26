@@ -1,15 +1,5 @@
 .features {
-  margin-bottom: $spacing-2x-large;
   .card {
-    + .card {
-      margin-top: $spacing-large;
-    }
-
-    &__picture {
-      img {
-        margin: 0 auto;
-      }
-    }
 
     @media screen and (min-width: $medium) {
       column-gap: $spacing-large;
