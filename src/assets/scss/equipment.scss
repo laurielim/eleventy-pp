@@ -1,39 +1,13 @@
 @use 'spacing' as *;
 
 @import './components/page-header';
+@import './components/toc';
 
 .equipment-category {
   &__content {
     column-gap: $spacing-large;
     display: grid;
     row-gap: $spacing;
-
-    .toc {
-      &__content {
-        background-color: var(--color-accent-2);
-        border-radius: 0.25rem;
-        margin-top: $spacing;
-        max-width: 500px;
-        padding: $spacing;
-        top: $spacing;
-        position: sticky;
-      }
-
-      &__list {
-        list-style-type: disc;
-        margin-left: $spacing-medium;
-        color: var(--color-primary);
-
-        a {
-          text-decoration: none;
-
-          &:active,
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-    }
 
     @media screen and (min-width: $large) {
       grid-template-columns: repeat(3, 1fr);

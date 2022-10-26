@@ -1,0 +1,26 @@
+.toc {
+  &__content {
+    background-color: var(--color-accent-2);
+    border-radius: 0.25rem;
+    margin-top: $spacing-small;
+    max-width: 500px;
+    padding: $spacing;
+    top: $spacing;
+    position: sticky;
+  }
+
+  &__list {
+    list-style-type: disc;
+    margin-left: $spacing-medium;
+    color: var(--color-primary);
+
+    a {
+      text-decoration: none;
+
+      &:active,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

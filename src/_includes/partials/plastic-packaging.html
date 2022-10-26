@@ -1,0 +1,55 @@
+<aside class="toc">
+  <div class="toc__content">
+    <h2 class="toc__title">{{ 'toc' | i18n }}</h2>
+    <ul class="toc__list">
+      {% for material in materials %}
+        <li>
+          <a href="#{{ material.id }}">{{ material.title }}</a>
+          <ul>
+            {% for type in material.types %}
+              <li>
+                <a href="#{{ type.id }}">{{ type.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</aside>
+
+<div class="plastic-packaging__container flow">
+  {% for material in materials %}
+    <article class="plastic-packaging flow">
+      <h2 id="{{ material.id }}">{{ material.title }}</h2>
+      <p class="material__description">{{ material.description }}</p>
+      {% for type in material.types %}
+        <div class="flow">
+          <h3 id="{{ type.id }}">{{ type.title }}</h3>
+          {% for variation in type.variations %}
+            <div>
+              <h4>
+                {% if variation.thickness %}
+                  {{ 'thickness' | i18n }}: {{ variation.thickness }} Microns |
+                {% endif %}
+                {{ 'sizes' | i18n }}:
+              </h4>
+              <ul class="plastic-packaging__product-list">
+                {% for item in plasticPackagings[variation.prodList] %}
+                <li>
+                  {% if helpers.isLastCharNaN(item) %}
+                    {{ item }}
+                  {% else %}
+                    {{ item }} {{ 'inches' | i18n }}
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </article>
+  {% endfor %}
+</div>
+

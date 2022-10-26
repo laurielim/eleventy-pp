@@ -1,5 +1,7 @@
 @use 'spacing' as *;
 
+@import './components/feature-list';
+
 .hero {
   margin-bottom: $spacing-2x-large;
   margin-top: $spacing-large;
@@ -9,12 +11,6 @@
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-
-    span.prominent {
-      display: block;
-      font-size: clamp(3.11rem, calc(2.58rem + 2.67vw), 4.2rem);
-
-    }
   }
 
   &__lead {
@@ -23,21 +19,16 @@
 
   @media screen and (min-width: $large) {
     align-items: flex-end;
-    column-gap: $spacing-2x-large;
+    column-gap: $spacing-large;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.departments,
-.features {
-  margin-top: $spacing-2x-large;
-}
-
 .departments {
   &__list {
     display: grid;
-    row-gap: $spacing;
+    row-gap: $spacing-2x-large;
 
     .card {
       &__title {
@@ -56,7 +47,7 @@
 
     @media screen and (min-width: $max-content-width) {
       li:first-child {
-        margin-bottom: $spacing-2x-large;
+        margin-bottom: $spacing-large;
         margin-top: 30%;
       }
 
@@ -79,9 +70,11 @@
         &__description {
           background-color: rgba(0, 48, 130, 0.9);
           color: var(--color-white);
+          display: grid;
           font-size: var(--step-1);
           opacity: 0;
-          padding: $spacing-large $spacing-2x-large;
+          padding: 0 $spacing-2x-large;
+          place-content: center;
           transition: 0.25s;
 
           &:hover,
@@ -94,6 +87,7 @@
   }
 }
 
+
 .features {
   margin-bottom: $spacing-2x-large;
   .card {
@@ -102,28 +96,14 @@
     &:first-child {
       background-color: var(--color-accent-2);
       border-radius: 0.25rem;
+      margin-bottom: $spacing-large;
     }
 
     @media screen and (min-width: $medium) {
-      column-gap: $spacing-large;
-      display: grid;
-      grid-template-areas: "a b b"
-                           "a c c"
-                           "a d d";
-      grid-template-columns: 250px auto auto;
+      grid-template-columns: 250px 1fr 1fr;
+
       &__title {
-        grid-area: b;
-      }
-      &__picture {
         margin-top: 0;
-        grid-area: a;
-        justify-self: center;
-      }
-      &__description {
-        grid-area: c;
-      }
-      &__action {
-        grid-area: d;
       }
     }
   }

@@ -15,7 +15,7 @@
 	{% set ctaContent = primaryCTA %}
 	{% include "partials/cta.html" %}
 
-	<article class="departments flow wrapper">
+	<article class="departments flow--xl wrapper">
 		<h2 class="departments__title visually-hidden">{{ productCategories.title }}</h2>
 		<ul class="departments__list">
 			{% for departmentContent in collections["departments_" + locale] %}
@@ -28,16 +28,7 @@
 		</ul>
 	</article>
 
-  <article class="flow wrapper features">
-		<h2 class="features__title visually-hidden">{{ features.title }}</h2>
-		<div class="features__container">
-			{% for feature in features.list %}
-				{% set cardContent = feature %}
-				{% set cardCtaLink = feature.cardCtaLink %}
-				{% include "partials/card.html" %}
-			{% endfor %}
-		</div>
-  </article>
+	{% include "partials/feature-list.html" %}
 
 	{% set ctaContent = cta[locale] %}
 	{% include "partials/cta.html" %}
