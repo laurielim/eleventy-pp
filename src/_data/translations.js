@@ -4,6 +4,10 @@ module.exports = {
       'en': 'Contents',
       'fr': 'Sommaire',
     },
+    top: {
+      'en': 'Back to top',
+      'fr': 'Retour au sommet',
+    },
     inches: {
       'en': 'inches',
       'fr': 'pouces',
