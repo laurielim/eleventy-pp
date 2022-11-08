@@ -8,6 +8,30 @@ module.exports = {
       'en': 'Back to top',
       'fr': 'Retour au sommet',
     },
+    siteNav: {
+      'en': "Site navigation",
+      'fr': "Navigation du site",
+    },
+    contact: {
+      'en': "Our contact details",
+      'fr': "Nos coordonnées",
+    },
+    hours: {
+      'en': "Opening hours",
+      'fr': "Horaires d'ouvertures",
+    },
+    mToF: {
+      'en': "Monday to Friday",
+      'fr': "Lundi à vendredi",
+    },
+    builtBy: {
+      'en': "Built by",
+      'fr': "Créé par",
+    },
+    rights: {
+      'en': "All rights reserved.",
+      'fr': "Tous droits réservés.",
+    },
     inches: {
       'en': 'inches',
       'fr': 'pouces',
