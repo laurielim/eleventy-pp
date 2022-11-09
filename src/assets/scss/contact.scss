@@ -1,0 +1,42 @@
+@use 'spacing' as *;
+
+@import './components/page-header';
+
+.contact {
+  margin-bottom: $spacing-2x-large;
+
+  &__content {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: $spacing-large;
+  }
+
+  &__details {
+    width: clamp(350px, 80vw, 556px);
+  }
+
+  &__maps {
+    max-width: 600px;
+    width: 100%;
+
+    iframe {
+      height: 500px;
+      width: 100%;
+    }
+  }
+}
+
+.contact-detail {
+  &__icon {
+    margin-top: $spacing-small;
+    min-height: 80px;
+    min-width: 80px;
+  }
+
+  &__title {
+    a {
+      font-size: var(--step-1);
+      text-decoration: none;
+    }
+  }
+}

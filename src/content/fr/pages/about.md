@@ -28,5 +28,5 @@ aboutCTA:
   title: "Travaillons ensemble!"
   summary: "Nous accueillons aussi bien les PME que les grandes entreprises. Nous vous invitons à communiquer avec nous de la manière qui vous convient le mieux."
   buttonText: "Prendre contact"
-  buttonUrl: "/fi/contact"
+  buttonUrl: "/fr/contact"
 ---

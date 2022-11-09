@@ -1,0 +1,35 @@
+{% extends "layouts/base.html" %}
+{% set pageStyle = "css/contact.css" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+  <article class="flow--xl contact">
+    {% include "partials/page-header.html" %}
+    <div class="contact__content wrapper flex">
+      <ul class="contact__details flow">
+        {% for detail in contactDetails %}
+        <li>
+          <article class="contact-detail flex">
+            <div class="contact-detail__icon">
+              {% fortawesomeRegular detail.icon %}
+            </div>
+            <div class="contact-detail__info">
+              <h2 class="contact-detail__title">
+                <a href="{{ detail.link }}">
+                  {{ detail.title }}
+                </a>
+              </h2>
+              <p class="contact-detail__description">{{ detail.description }}</p>
+            </div>
+          </article>
+
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="contact__maps">
+        {% include "partials/embed-gmap.html" %}
+      </div>
+    </div>
+  </article>
+{% endblock %}
