@@ -8,19 +8,19 @@ products:
     subtitle:
     specs:
       - "Dimension:  24 x 20 pouces"
-      - "Soufflets latéraux: 2 x 5 pouces"
+      - "Soufflets: 2 x 5 pouces"
       - "Couleur: Bleu, vert"
   - title: PROPVIT 50L
     subtitle:
     specs:
       - "Dimension: 24 x 30 pouces"
-      - "Soufflets latéraux: 2 x 5 pouces"
+      - "Soufflets: 2 x 5 pouces"
       - "Couleur: Bleu, vert"
   - title: PROPVIT 100L
     subtitle:
     specs:
       - "Dimension: 35 x 35.5 pouces"
-      - "Soufflets latéraux: 2 x 5 pouces"
+      - "Soufflets: 2 x 5 pouces"
       - "Couleur: Noir, bleu, vert, translucide"
   - title: 10L BLANC
     subtitle:
@@ -31,13 +31,13 @@ products:
     subtitle:
     specs:
       - "Dimension: 10 x 17 pouces"
-      - "Soufflets latéraux: 2 x 2.5 pouces"
+      - "Soufflets: 2 x 2.5 pouces"
       - "Couleur: Translucide"
   - title: Sac poubelle moyen
     subtitle:
     specs:
       - "Dimension: 11.5 x 21 pouces"
-      - "Soufflets latéraux: 2 x 3 pouces"
+      - "Soufflets: 2 x 3 pouces"
       - "Couleur: Bleu"
   - title: Sac poubelle 50L
     subtitle:
