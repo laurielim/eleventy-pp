@@ -8,7 +8,6 @@
   &__content {
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: $spacing-large;
   }
 
   &__details {
@@ -16,6 +15,7 @@
   }
 
   &__maps {
+    margin-top: $spacing-medium;
     max-width: 600px;
     width: 100%;
 
