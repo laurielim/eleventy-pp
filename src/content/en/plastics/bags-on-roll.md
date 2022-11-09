@@ -2,8 +2,6 @@
 title: Bags on roll
 image: src/assets/images/bags-on-roll.jpeg
 imageAlt: Bags on roll
-tags:
-  - plasticCategories_en
 products:
   - title: 12*15*.01
     subtitle: HDPE
