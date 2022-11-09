@@ -15,12 +15,15 @@
   }
 
   &__maps {
-    margin-top: $spacing-medium;
+    background-color: var(--color-accent-2);
+    border-radius: 0.25rem;
     max-width: 600px;
     width: 100%;
 
     iframe {
-      height: 500px;
+      border-radius: inherit;
+      height: 100%;
+      min-height: 400px;
       width: 100%;
     }
   }
@@ -28,15 +31,21 @@
 
 .contact-detail {
   &__icon {
-    margin-top: $spacing-small;
     min-height: 80px;
     min-width: 80px;
   }
 
   &__title {
+    font-size: var(--step-1);
     a {
-      font-size: var(--step-1);
+      line-height: inherit;
+      font-size: inherit;
       text-decoration: none;
+
+      &:hover,
+      &:active {
+        text-decoration: underline;
+      }
     }
   }
 }
