@@ -19,11 +19,11 @@
       margin-right: auto;
       max-width: $max-text-width;
 
-      .history__title {
+      h2 {
          text-align: center;
       }
 
-      .timeline-list {
+      ul {
          margin-left: $spacing-small;
          max-width: fit-content;
          padding-bottom: $spacing-large;
