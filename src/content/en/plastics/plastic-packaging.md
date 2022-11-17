@@ -3,8 +3,6 @@ title: Packaging
 description: "Below is a list of plastic bags commonly used for packaging. We use different materials to produce a variety of plastic bags as each type is best suitable for different purposes. Our sales team is happy to assist you choose the right type for your needs."
 image: src/assets/images/plastic-packaging.png
 imageAlt: Plain plastic bag
-tags:
-  - plasticCategories_en
 materials:
   - title: "PP | Polypropylene"
     id: pp

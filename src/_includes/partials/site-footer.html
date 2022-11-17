@@ -1,19 +1,48 @@
 <footer class="site-footer">
-    <div class="wrapper">
+    <div class="site-footer__content flex wrapper">
         <nav>
-            <h2 class="visually-hidden">Site navigation</h2>
+            <h2 class="visually-hidden">{{ 'siteNav' | i18n }}</h2>
             {% set departments = collections['departments_'+locale] | eleventyNavigation('Home') %}
-            <ul class="footer-nav">
+            <ul class="footer-nav flex">
                 {% for dep in departments %}
                 <li>
-                    <h3><a href="{{ dep.url }}">Performance {{ dep.key }}</a></h3>
+                    <h3 class="footer-nav__title"><a href="Perf {{ dep.url }}">{{ dep.key }}</a></h3>
                     {% set navigation = collections[dep.key+'Category_'+locale] | eleventyNavigation(dep.key) %}
                     {% include "partials/navigation.html" %}
                 </li>
                 {% endfor %}
             </ul>
         </nav>
-        <p><a href="#top-of-site">{{ 'top' | i18n }}</a></p>
-        <p class="copyright-text">{{ helpers.getCurrentYear() }} © <a href="https://laurielim.github.io">Laurie Lim Sam</a></p>
+        <div class="company-info flow">
+            <h2 class="visually-hidden">{{ 'contact' | i18n }}</h2>
+            <div>
+                <h3><a href="https://goo.gl/maps/8Yg3zVeBknYB13ap8">{{ companyInfo.name }}</a></h3>
+                <p>
+                    {% for line in companyInfo.address %}
+                    {{ line }} <br>
+                    {% endfor %}
+                </p>
+            </div>
+            <div>
+                <p>Tel: <a href="tel:{{ companyInfo.phone | replace(' ', '')}}">{{ companyInfo.phone }}</a></p>
+                <p>Fax: {{ companyInfo.fax }}</p>
+            </div>
+        </div>
+        <div class="hours">
+            <h3 class="hours__title">{{ 'hours' | i18n }}:</h3>
+            <p>{{ 'mToF' | i18n }} <br>{{ companyInfo.hours }}</p>
+        </div>
+        <div class="ISO-logo">
+            {% image
+                companyInfo.iso.image,
+                companyInfo.iso.imageAlt
+              %}
+        </div>
     </div>
+    <div class="back-to-top" id="back-to-top">
+        <a href="#top-of-site" title="{{ 'top' | i18n }}" id="back-to-top-link">
+            <span class="visually-hidden">{{ 'top' | i18n }}</span>
+        </a>
+    </div>
+    <p class="copyright-text">{{ 'builtBy' | i18n }} <a href="https://laurielim.github.io">Laurie Lim Sam</a>. © {{ helpers.getCurrentYear() }} Performance Plastics Ltd. {{ 'rights' | i18n }}</p>
 </footer>

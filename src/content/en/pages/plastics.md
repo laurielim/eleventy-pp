@@ -1,5 +1,6 @@
 ---
 title: Performance Plastics
+department: plastics
 tagline: "We manufacture eye-catching packagings that make your products stand out."
 description: "Explore a wide range of products available in stock. Items such as biodegradable plastic bags, garbage bags and bubble wrap are ready for purchase. We can also produce custom-made packaging solutions that meet your specifications. We assist you from idea to finished product."
 cardCTA: "Explore products"

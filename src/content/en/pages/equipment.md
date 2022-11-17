@@ -1,5 +1,6 @@
 ---
 title: Performance Equipment
+department: equipment
 logo:
   image: src/assets/images/PerfEq_Logo.png
   imageAlt: Perf Eq Logo

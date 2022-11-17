@@ -19,6 +19,10 @@
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
+
+    @media screen and (min-width: $small) {
+      font-size: clamp(3.11rem, calc(2.58rem + 2.67vw), 4.2rem);
+    }
   }
 
   &__tagline {
@@ -134,7 +138,7 @@
 
 .content {
   .rogers-capital-logo {
-    margin-top: $spacing-extra-large;
+    margin-top: $spacing-2x-large;
     max-width: 320px;
   }
 }

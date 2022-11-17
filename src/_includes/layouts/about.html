@@ -17,17 +17,7 @@
     </div>
 
     <article class="flow--xl about__history">
-      <h2 class="history__title">{{ history.title }}</h2>
-      <ul class="history__timeline timeline-list">
-        {% for event in history.events %}
-        <li>
-          <div class="timeline-list__content">
-            <h3>{{ event.title }}</h3>
-            <p>{{ event.description }}</p>
-          </div>
-        </li>
-        {% endfor %}
-      </ul>
+      {{ content | safe }}
     </article>
 
     {% set ctaContent = aboutCTA %}

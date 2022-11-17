@@ -1,0 +1,15 @@
+{
+	"name": "Performance Plastics Ltd",
+  "address": [
+    "Industrial Zone",
+    "Riche Terre, 21708",
+    "Mauritius"
+  ],
+  "phone": "+230 249 3780",
+  "fax": "+230 248 8832",
+  "hours": "8h00 – 17h30",
+  "iso": {
+    "image": "src/assets/images/certified-aja-iso.jpeg",
+    "imageAlt": "ISO 9001 certification logo"
+  }
+}

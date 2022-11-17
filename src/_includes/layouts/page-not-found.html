@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %}
+{% set pageStyle = "css/not-found.css" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+  <article class="wrapper not-found">
+    <h1 class="not-found__title">404 - {{ title }}</h1>
+    {{ content | safe }}
+    <a href="/{{ locale }}" class="not-found__cta button">{{ buttonText }}</a>
+  </article>
+{% endblock %}

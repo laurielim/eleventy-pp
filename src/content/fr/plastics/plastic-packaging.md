@@ -3,8 +3,6 @@ title: Emballange
 description: "Vous trouverez ci-dessous une liste de sacs en plastique couramment utilisés pour l'emballage. Nous utilisons différents matériaux pour produire une variété de sacs en plastique, chaque type étant le mieux adapté à des fins différentes. Notre équipe de vente est heureuse de vous aider à choisir le bon type pour vos besoins."
 image: src/assets/images/plastic-packaging.png
 imageAlt: Sac en plastique alimentaire ordinaire
-tags:
-  - plasticCategories_fr
 materials:
   - title: "PP | Polypropylène"
     id: pp

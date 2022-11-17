@@ -1,0 +1,51 @@
+@use 'spacing' as *;
+
+@import './components/page-header';
+
+.contact {
+  margin-bottom: $spacing-2x-large;
+
+  &__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__details {
+    width: clamp(350px, 80vw, 556px);
+  }
+
+  &__maps {
+    background-color: var(--color-accent-2);
+    border-radius: 0.25rem;
+    max-width: 600px;
+    width: 100%;
+
+    iframe {
+      border-radius: inherit;
+      height: 100%;
+      min-height: 400px;
+      width: 100%;
+    }
+  }
+}
+
+.contact-detail {
+  &__icon {
+    min-height: 80px;
+    min-width: 80px;
+  }
+
+  &__title {
+    font-size: var(--step-1);
+    a {
+      line-height: inherit;
+      font-size: inherit;
+      text-decoration: none;
+
+      &:hover,
+      &:active {
+        text-decoration: underline;
+      }
+    }
+  }
+}
