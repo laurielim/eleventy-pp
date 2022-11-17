@@ -1,5 +1,5 @@
 ---
-title: Film
+title: Films
 image: src/assets/images/stretch-film.jpeg
 imageAlt: Rouleau de film rétractable
 products:
@@ -19,4 +19,4 @@ products:
       - "Largeur: 45 cms"
       - "Longueur: 600 mts"
 ---
-Notre film rétractable peut être utilisé avec [la machine d'emballage à cloche](/fr/equipment/packaging/). Obtenez plus d'informations en appelant le <a href='tel:+2302493780'>249 3780</a> et parlez avec un de nos représentants de vente d'équipement.
+Notre film rétractable peut être utilisé avec [la machine d'emballage à cloche](/fr/equipment/packaging/). Obtenez plus d'informations en appelant le [249 3780](tel:+2302493780) et parlez avec un de nos représentants de vente d'équipement.

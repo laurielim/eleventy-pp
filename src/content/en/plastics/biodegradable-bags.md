@@ -43,11 +43,11 @@ products:
     specs:
       - "Dimension: 9 x 12 inches"
       - "Thickness: 14 microns"
-      - "Per Roll: 500pcs"
+      - "Per roll: 500pcs"
   - title: 28*42.5 Bio
     subtitle: Bags on roll
     specs:
       - "Dimension: 28 x 42.5 cms"
       - "Thickness: 14 microns"
-      - "Per Roll: 200pcs, 500pcs"
+      - "Per roll: 200pcs, 500pcs"
 ---
