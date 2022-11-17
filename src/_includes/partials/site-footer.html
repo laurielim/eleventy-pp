@@ -32,6 +32,12 @@
             <h3 class="hours__title">{{ 'hours' | i18n }}:</h3>
             <p>{{ 'mToF' | i18n }} <br>{{ companyInfo.hours }}</p>
         </div>
+        <div class="ISO-logo">
+            {% image
+                companyInfo.iso.image,
+                companyInfo.iso.imageAlt
+              %}
+        </div>
     </div>
     <div class="back-to-top" id="back-to-top">
         <a href="#top-of-site" title="{{ 'top' | i18n }}" id="back-to-top-link">

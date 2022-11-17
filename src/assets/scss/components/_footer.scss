@@ -24,6 +24,14 @@
       font-size: var(--step-0);
       line-height: 2.5;
     }
+
+    .ISO-logo {
+      align-self: center;
+    }
+
+    @media screen and (min-width: $large) {
+      justify-content: center;
+    }
   }
 }
 
