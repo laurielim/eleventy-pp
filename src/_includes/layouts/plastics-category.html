@@ -25,9 +25,13 @@
         </div>
       {% endif %}
 
-      <p class="plastics-category__cta">
-        {{ 'plasticsCta' | i18n | safe }}
-      </p>
+      <div class="plastics-category__cta">
+        {% if content %}
+          {{ content | safe }}
+        {% else %}
+          <p>{{ 'plasticsCta' | i18n | safe }}</p>
+        {% endif %}
+      </div>
     </div>
     {% include "partials/cta.html" %}
   </article>
