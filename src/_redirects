@@ -1,2 +1,6 @@
 /    /fr    302    Language=fr
 /    /en    302
+
+/en/* /en/404/index.html 404
+/* /en/404/index.html 404
+/fr/* /fr/404/index.html 404
