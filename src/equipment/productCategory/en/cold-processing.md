@@ -1,5 +1,5 @@
 ---
 title: Cold processing
-image: /src/assets/images/Perfeq.jpeg
-imageAlt: This is a temporary image
+image: /src/assets/images/cold-processing.jpeg
+imageAlt: Dough conveyor
 ---
