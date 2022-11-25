@@ -1,7 +1,8 @@
 ---
-title: 'Contactez nous'
-layout: 'layouts/contact.html'
-permalink: '{{ locale }}/contact/index.html'
+title: "Contactez nous"
+metaDesc: "Découvrez comment joindre notre équipe sur la page contact de Performance."
+layout: "layouts/contact.html"
+permalink: "{{ locale }}/contact/index.html"
 eleventyNavigation:
   key: Contact
   parent: Home

@@ -1,5 +1,6 @@
 ---
 title: "Performance Plastics & Equipments"
+metaDesc: "Performance Plastics Ltd est un fabricant mauricien d'emballages en plastique et fournisseur d'équipements alimentaire et d'emballage."
 layout: "layouts/home.html"
 hero:
   perf: Performance
