@@ -40,7 +40,7 @@ We have partnered with Rogers Capital to provide you with credit payment facilit
 
 Please enquire for more information.
 
-<a href="https://www.rogerscapital.mu/credit/credit/" class="button">Learn more</a>
+<a href="https://www.rogerscapital.mu/credit/credit/" class="button">Learn more<span class='visually-hidden'> about Rogers capital credit services.</span></a>
 
 ### Services & After Sales Support
 We are confident in the quality of our equipment and after sales service and so provide a 1 year warranty on our entire range of products.

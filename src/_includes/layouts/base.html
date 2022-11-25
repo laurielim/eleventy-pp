@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<!-- This handle the auth URl paramters passed from Netlify -->
-		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <meta name="generator" content="{{ eleventy.generator }}">
+    {% if page.url === "/en/" %}
+    		<!-- This handle the auth URl paramters passed from Netlify -->
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% endif %}
     {% include "partials/meta-info.html" %}
     <style>{% include "css/main.css" %}</style>
     {% if pageStyle %}

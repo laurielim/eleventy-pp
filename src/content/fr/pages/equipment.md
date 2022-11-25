@@ -41,7 +41,7 @@ Grâce au partenariat avec Rogers Capital, choisissez la solution adaptée à vo
 
 Pour plus d'informations, n'hésitez pas à nous contacter directement.
 
-<a href="https://www.rogerscapital.mu/credit/credit/" class="button">Learn more</a>
+<a href="https://www.rogerscapital.mu/credit/credit/" class="button">En savoir plus<span class='visually-hidden'> sur les services credit de Rogers capital.</span></a>
 
 ### Service après-vente
 
