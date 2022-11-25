@@ -3,6 +3,7 @@ module.exports = {
   permalink: "/{{ locale }}/plastiques/{{ title | slugify }}/index.html",
   tags: ['plasticCategories_fr'],
   eleventyComputed: {
+    metaDesc: data => `Parcourez la liste des ${data.title.toLowerCase()} que nous avons en stock. Disponible immédiatement sur place.`,
     eleventyNavigation: {
       key: data => data.page.fileSlug,
       title: data => data.title,

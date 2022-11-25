@@ -1,5 +1,6 @@
 ---
 title: "Performance Plastics & Equipments"
+metaDesc: "Performance Plastics Ltd is a Mauritius-based manufacturer of plastic bags & packaging and provider of packing & food processing equipment."
 layout: "layouts/home.html"
 hero:
   perf: Performance

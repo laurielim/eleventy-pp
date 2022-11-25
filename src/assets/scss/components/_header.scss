@@ -24,12 +24,12 @@
   }
 
   &__nav {
+    align-items: center;
     flex-wrap: wrap-reverse;
     font-weight: 700;
     line-height: 1;
 
     .nav__list {
-
       flex-wrap: wrap;
 
       a {
@@ -38,11 +38,11 @@
         position: relative;
 
         // Adds the fake border to active state items
-        &[data-state='active'],
-        &[aria-current='page'] {
+        &[data-state="active"],
+        &[aria-current="page"] {
           &:before {
             background-color: var(--color-accent-1);
-            content: '';
+            content: "";
             display: block;
             width: 100%;
             height: 0.25rem;
@@ -57,22 +57,29 @@
 }
 
 .lang-switch {
+  border: 1px solid var(--color-secondary);
+  border-radius: 0.25rem;
   column-gap: 0;
 
   a {
-    color: var(--color-black);
-    display: block;
+    border: 2.5px solid var(--color-white);
+    border-radius: 0.25rem;
+    color: var(--color-secondary);
+    display: flex;
+    font-size: var(--step--1);
+    min-height: 40px;
+    padding: 0 $spacing-small;
     text-decoration: none;
 
-    &[data-state='active'],
-    &[aria-current='page'] {
-      color: var(--color-accent-1);
+    &[data-state="active"],
+    &[aria-current="page"] {
+      background-color: var(--color-primary);
+      color: var(--color-white);
     }
-  }
 
-  &__item + li span {
-    border-left: 2px solid var(--color-accent-2);
-    margin-left: $spacing-small;
-    padding-left: $spacing-small;
+    span {
+      align-self: center;
+      line-height: 1;
+    }
   }
 }

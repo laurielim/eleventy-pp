@@ -30,11 +30,6 @@ collections:
         name: "title"
         widget: "string"
         i18n: duplicate
-      - label: "Description"
-        name: "description"
-        required: false
-        widget: "string"
-        i18n: true
       - label: "Product Type"
         name: "productType"
         widget: "relation"
@@ -107,6 +102,12 @@ collections:
     fields:
       - label: "Title"
         name: "title"
+        widget: "string"
+        i18n: true
+      - label: "Description"
+        name: "description"
+        hint: "This text is required as it is used for the page's meta description."
+        required: true
         widget: "string"
         i18n: true
       - label: "Image"

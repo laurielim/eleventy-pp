@@ -3,28 +3,16 @@ title: Bags on roll
 image: src/assets/images/bags-on-roll.jpeg
 imageAlt: Bags on roll
 products:
-  - title: 12*15*.01
-    subtitle: HDPE
-    specs:
-      - "Dimension: 12 x 15 inches"
-      - "Thickness: 10 microns"
-      - "Per roll: 1000pcs"
-  - title: 12*15 HD
-    subtitle: HDPE
-    specs:
-      - "Dimension: 12 x 15 inches"
-      - "Thickness: 12 microns"
-      - "Per roll: 500pcs, 1000pcs"
-  - title: 30*40 HD
-    subtitle: HDPE
-    specs:
-      - "Dimension: 30 x 40 cms"
-      - "Thickness: 12 microns"
-      - "Per roll: 500pcs"
-  - title: 9*12 HD
-    subtitle: HDPE
+  - title: 9*12
+    subtitle: Bio
     specs:
       - "Dimension: 9 x 12 inches"
-      - "Thickness: 12 microns"
+      - "Thickness: 14 microns"
       - "Per roll: 500pcs"
+  - title: 28*42.5
+    subtitle: Bio
+    specs:
+      - "Dimension: 28 x 42.5 cms"
+      - "Thickness: 14 microns"
+      - "Per roll: 200pcs, 500pcs"
 ---
