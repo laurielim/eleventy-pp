@@ -1,5 +1,7 @@
 ---
 title: PLMIX10
+productType: planetary-mixer
+image: /src/assets/images/b10-planetary-mixer.jpg
 imageAlt: Planetary mixer 10L
 specs:
   - label: Voltage
