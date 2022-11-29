@@ -20,8 +20,8 @@ specs:
     value: 2 lines, 30 letters w/ inker
   - label: Conveyor load
     value: 5 Kg
-  - label: Sealing speed
+  - label: Conveyor speed
     value: 0-13 m/ min
   - label: Sealing width
-    value: 6-15 mm
+    value: 10 mm
 ---
