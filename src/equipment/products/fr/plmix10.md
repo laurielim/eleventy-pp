@@ -1,8 +1,8 @@
 ---
-title: PLMIX10
+title: PLMIX30
 productType: planetary-mixer
 image: /src/assets/images/b10-planetary-mixer.jpg
-imageAlt: Planetary mixer 10L
+imageAlt: Planetary mixer 30L
 specs:
   - label: Voltage
     value: 220 V, 1-phase
