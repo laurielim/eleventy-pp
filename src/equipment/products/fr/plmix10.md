@@ -1,7 +1,7 @@
 ---
 title: PLMIX30
 productType: planetary-mixer
-image: /src/assets/images/b10-planetary-mixer.jpg
+image: /src/assets/images/b30-planetary-mixer.jpg
 imageAlt: Planetary mixer 30L
 specs:
   - label: Voltage
