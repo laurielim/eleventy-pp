@@ -12,16 +12,16 @@ specs:
     value: 950*400*660 mm
   - label: Poids net
     value: 46 Kg
-  - label: Épaisseur du film
+  - label: Epaisseur du film plastique
     value: 20-80 μm (microns)
-  - label: Température
+  - label: Temperature
     value: 0-300 C
-  - label: Impression / codage
-    value: 1 lignes, 15 lettres
-  - label: Charge maximum
+  - label: Impression
+    value: 1 ligne, 15 lettres
+  - label: Charge du convoyeur
     value: 5 Kg
-  - label: Vitesse
+  - label: Vitesse du convoyeur
     value: 0-13 m/ min
-  - label: Largeur de scellement
-    value: 6-15 mm
+  - label: Largeur de soudure
+    value: 10 mm
 ---
