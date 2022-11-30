@@ -25,8 +25,8 @@ module.exports = {
       'fr': "Lundi à vendredi",
     },
     builtBy: {
-      'en': "Built by",
-      'fr': "Créé par",
+      'en': "Website built by",
+      'fr': "Site web créé par",
     },
     rights: {
       'en': "All rights reserved.",
