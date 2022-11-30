@@ -32,21 +32,23 @@
     <h2>{{ productCategories.title  }}</h2>
     <ul class="category__list flex">
       {% for item in collections[productCategories.collection] %}
-      <li class="category__item">
-        <figure class="category-item flow">
-          <div class="category-item__image">
-            {% image
-              item.data.image,
-              item.data.imageAlt
-            %}
-          </div>
-          <figcaption>
-            <a class="category-item__link" href="{{ item.url }}">
-              <h3 class="category-item__title">{{ item.data.title }}</h3>
-            </a>
-          </figcaption>
-        </figure>
-      </li>
+        {% if not item.data.excludeFromCategory %}
+          <li class="category__item">
+            <figure class="category-item flow">
+              <div class="category-item__image">
+                {% image
+                  item.data.image,
+                  item.data.imageAlt
+                %}
+              </div>
+              <figcaption>
+                <a class="category-item__link" href="{{ item.url }}">
+                  <h3 class="category-item__title">{{ item.data.title }}</h3>
+                </a>
+              </figcaption>
+            </figure>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </article>
