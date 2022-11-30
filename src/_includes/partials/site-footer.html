@@ -6,7 +6,7 @@
             <ul class="footer-nav flex">
                 {% for dep in departments %}
                 <li>
-                    <h3 class="footer-nav__title"><a href="Perf {{ dep.url }}">{{ dep.key }}</a></h3>
+                    <h3 class="footer-nav__title"><a href="{{ dep.url }}">Perf {{ dep.key }}</a></h3>
                     {% set navigation = collections[dep.key+'Category_'+locale] | eleventyNavigation(dep.key) %}
                     {% include "partials/navigation.html" %}
                 </li>
