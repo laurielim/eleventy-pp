@@ -3,6 +3,6 @@ title: Soudeuse par induction
 tags:
   - packaging
 ---
-L﻿e soudage par induction comprend le chauffage d'un objet a conduction electrique (le papier aluminium) par induction electromagnetique.
+L﻿e soudage par induction comprend le chauffage d'un objet à conduction électrique (le papier aluminium) par induction électromagnétique.
 
-C﻿es appareils sont couramment utilises dans le soudage de bouchon, par une methode de chaleur indirecte sur un sceau a l'interieur du bouchon qui produit un scellage hermetique.
+C﻿es appareils sont couramment utilisés dans le soudage de bouchon, par une méthode de chaleur indirecte sur un sceau a l'intérieur du bouchon qui produit un scellage hermétique.
