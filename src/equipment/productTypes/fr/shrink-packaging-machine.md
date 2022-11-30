@@ -1,6 +1,6 @@
 ---
-title: Machine d'emballage sous film thermoretractable
+title: Machine d'emballage sous film thermorétractable
 tags:
   - packaging
 ---
-E﻿quipement d'emballage qui retrecis l'exces de film plastique par la chaleur afin de prendre la forme du produit emballe et de le proteger.
+Equipement d'emballage qui rétrécis l'excès de film plastique par la chaleur afin de prendre la forme du produit emballé et de le protéger.
