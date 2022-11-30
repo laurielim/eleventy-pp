@@ -39,6 +39,8 @@
         display: grid;
         column-gap: $spacing;
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        line-height: 1.2;
+        margin-bottom: var(--step--1);
 
         &__label {
           font-weight: 600;
