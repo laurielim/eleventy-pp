@@ -1,6 +1,6 @@
 ---
 title: Planetary mixer
-description:
+description: null
 tags:
   - baking
 ---

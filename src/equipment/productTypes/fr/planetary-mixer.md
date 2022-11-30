@@ -1,8 +1,8 @@
 ---
-title: Batteurs mélangeurs
+title: Batteur mélangeur
 tags:
   - baking
 ---
-In most pastry shop or bakery you will find at least one planetary mixer. The reason these mixers are so common is that they offer greater versatility. The paddle attachment is used for blending or creaming products. The whip attachment is commonly used to aerate mixtures, and lastly, the dough hook attachment is used to make doughs.
+O﻿n retrouve cet appareil dans toutes les boulangeries et pâtisseries. Leur versatilité est la raison principale pour leur présence. La palette est utilisée pour le mélange ou le crémage. Le fouet est utilisé pour aérer les mixtures, et le crochet pour les pâtes.
 
-Standard attachments include a **paddle**, a **whip**, and a **dough** hook. These machines also come with 3 speed options to accommodate different mixing needs.
+L﻿es accéssoires standards incluent la **palette**, le **fouet** et le **crochet**. Ces appareils sont aussi équipés avec 3 vitesses pour différents besoins.
