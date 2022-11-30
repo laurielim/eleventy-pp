@@ -31,7 +31,7 @@ features:
     imageAlt: "OK Compost logo"
     description: "All biodegrable plastic bags we manufacture comply with the laws of Mauritius. Additionally, the materials we use have been attributed the “OK COMPOST” conformity mark issued by TÜV AUSTRIA CERT BMBH."
     cardCTA: "See <span class='visually-hidden'>our biodegradable </span>products"
-    cardCtaLink: "#"
+    cardCtaLink: "/en/plastics/biodegradable-bags/"
 productCategories:
   title: Product categories
 permalink: '{{ locale }}/index.html'

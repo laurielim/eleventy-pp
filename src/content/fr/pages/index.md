@@ -29,7 +29,7 @@ features:
     imageAlt: "OK Compost logo"
     description: "Tous les sacs biodégradables que nous fabriquons sont conformes aux lois de Maurice. De plus, les matières premières que nous utilisons ont reçu la marque de conformité «OK COMPOST» émis par TÜV AUSTRIA CERT BMBH."
     cardCTA: "Voir nos produits bio"
-    cardCtaLink: "#"
+    cardCtaLink: "/fr/plastiques/sacs-biodegradables/"
 productCategories:
   title: Notre gamme de produits
 permalink: '{{ locale }}/index.html'
