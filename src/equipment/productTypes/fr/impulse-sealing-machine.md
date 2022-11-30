@@ -1,6 +1,6 @@
 ---
-title: Soudeuse a impulsion electrique
+title: Soudeuse à impulsion électrique
 tags:
   - packaging
 ---
-E﻿n manuel ou a pedale, les soudeuses a impulsion electrique sont faciles d'usage et sont recommandees pour les petits volumes de productions ou pour des debutants en affaire.
+E﻿n manuel ou à pédale, les soudeuses à impulsion électrique sont faciles d'usage et sont recommandées pour les petits volumes de productions ou pour des débutants en affaire.
