@@ -31,7 +31,7 @@
   <article class="category wrapper flow">
     <h2>{{ productCategories.title  }}</h2>
     <ul class="category__list flex">
-      {% for item in collections[productCategories.collection] %}
+      {% for item in collections[productCategories.collection] | sort(false, false, "data.title")%}
         {% if not item.data.excludeFromCategory %}
           <li class="category__item">
             <figure class="category-item flow">
