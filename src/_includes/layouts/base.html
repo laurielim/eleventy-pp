@@ -29,21 +29,25 @@
     <script>
       {{ js | safe }}
     </script>
+    {% if pageScript %}
+      {% set pagejs %}
+        {% include pageScript %}
+      {% endset %}
+      <script>
+        {{ pagejs | safe }}
+      </script>
+    {% endif %}
+    <!-- This helps redirect to the admin when a user logs in -->
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
-	<!-- This helps redirect to the admin when a user logs in -->
-  {% set js %}
-    {% include "main.js" %}
-  {% endset %}
-	<script>
-    {{ js | safe }}
-		if (window.netlifyIdentity) {
-			window.netlifyIdentity.on("init", user => {
-				if (!user) {
-					window.netlifyIdentity.on("login", () => {
-						document.location.href = "/admin/";
-					});
-				}
-			});
-		}
-		</script>
 </html>
