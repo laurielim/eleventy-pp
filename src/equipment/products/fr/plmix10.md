@@ -14,6 +14,6 @@ specs:
     value: 61 Kg
   - label: Vitesse
     value: 148/ 244/ 480 rpm
-  - label: Capacite
+  - label: Capacité
     value: 10 L
 ---
