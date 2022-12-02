@@ -14,7 +14,7 @@ specs:
     value: 46 Kg
   - label: Epaisseur du film plastique
     value: 20-80 μm (microns)
-  - label: Temperature
+  - label: Température
     value: 0-300 C
   - label: Impression
     value: 1 ligne, 15 lettres
