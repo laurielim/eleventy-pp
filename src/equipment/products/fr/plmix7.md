@@ -2,7 +2,7 @@
 title: PLMIX7
 productType: planetary-mixer
 image: /src/assets/images/PLMIX7.jpeg
-imageAlt: Batteur melangeur de 7L
+imageAlt: Batteur mélangeur de 7L
 specs:
   - label: Voltage
     value: 220 V, 1-phase
