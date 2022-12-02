@@ -1,5 +1,6 @@
 ---
 title: PLMIX20
+productType: planetary-mixer
 image: /src/assets/images/b20-planetary-mixer.jpg
 imageAlt: Planetary mixer 20L
 specs:
@@ -13,6 +14,6 @@ specs:
     label: Poids net
   - label: Vitesse
     value: 94/ 165/ 386 rpm
-  - label: Capacite
+  - label: Capacité
     value: 20 L
 ---
