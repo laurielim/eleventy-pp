@@ -1,5 +1,7 @@
 ---
 title: SEALIMC-300
+productType: impulse-sealing-machine
+image: /src/assets/images/resized-image-promo.jpeg
 imageAlt: SEALIMC-300
 specs:
   - label: Voltage
