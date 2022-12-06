@@ -1,7 +1,7 @@
 ---
-title: Handle bags
-image: src/assets/images/biobag.jpeg
-imageAlt: Biodegradable vest bags
+title: Biodegradable bags
+description: "Performance Plastics Ltd is a leader in the production of biodegradable plastic bags in Mauritius. Since March 2016, we manufacture 100% BIODEGRADABLE plastic bags."
+excludeFromCategory: true
 products:
   - title: S3M PLAIN
     subtitle: Vest bag
@@ -37,4 +37,16 @@ products:
     specs:
       - "Dimension: 15 x 20 inches"
       - "Thickness: 70 microns"
+  - title: 9*12
+    subtitle: Bags on roll
+    specs:
+      - "Dimension: 9 x 12 inches"
+      - "Thickness: 14 microns"
+      - "Per roll: 500pcs"
+  - title: 28*42.5
+    subtitle: Bags on roll
+    specs:
+      - "Dimension: 28 x 42.5 cms"
+      - "Thickness: 14 microns"
+      - "Per roll: 200pcs, 500pcs"
 ---

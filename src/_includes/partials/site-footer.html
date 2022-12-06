@@ -6,8 +6,8 @@
             <ul class="footer-nav flex">
                 {% for dep in departments %}
                 <li>
-                    <h3 class="footer-nav__title"><a href="Perf {{ dep.url }}">{{ dep.key }}</a></h3>
-                    {% set navigation = collections[dep.key+'Category_'+locale] | eleventyNavigation(dep.key) %}
+                    <h3 class="footer-nav__title"><a href="{{ dep.url }}">Perf {{ dep.key }}</a></h3>
+                    {% set navigation = collections[dep.key+'Category_'+locale] | eleventyNavigation(dep.key) | sort(false, false, "title") %}
                     {% include "partials/navigation.html" %}
                 </li>
                 {% endfor %}
@@ -27,10 +27,10 @@
                 <p>Tel: <a href="tel:{{ companyInfo.phone | replace(' ', '')}}">{{ companyInfo.phone }}</a></p>
                 <p>Fax: {{ companyInfo.fax }}</p>
             </div>
-        </div>
-        <div class="hours">
-            <h3 class="hours__title">{{ 'hours' | i18n }}:</h3>
-            <p>{{ 'mToF' | i18n }} <br>{{ companyInfo.hours }}</p>
+            <div class="hours">
+                <h3 class="hours__title">{{ 'hours' | i18n }}:</h3>
+                <p>{{ 'mToF' | i18n }} <br>{{ companyInfo.hours }}</p>
+            </div>
         </div>
         <div class="ISO-logo">
             {% image

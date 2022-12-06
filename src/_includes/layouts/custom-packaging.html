@@ -1,0 +1,92 @@
+{% extends "layouts/base.html" %}
+{% set pageStyle = "css/custom-packaging.css" %}
+{% set pageScript = "js/custom-packaging.js" %}
+
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+  <article class="custom-packaging flow--xl">
+    {% include "partials/page-header.html" %}
+
+    <div class="wrapper">
+      <p>{{ lead }}</p>
+    </div>
+
+    <div class="flow--xl wrapper custom-packaging__content">
+
+      <section class="step-1 flex">
+        <div class="flow">
+          <h2>
+            <span class="step">{{ 'step' | i18n }} 1</span>
+            {{ step1.title }}
+          </h2>
+          <p>{{ step1.description }}</p>
+        </div>
+        <dl class="step-1__material-list material-list">
+          {% for item in step1.materials %}
+            <dt class="material-list__term" >
+              <button class="js-accordion-button" type="button" aria-expanded="false" aria-controls="{{ item.id }}">
+                {{ item.label}}
+              </button>
+            </dt>
+            <dd class="material-list__details">
+              <div id="{{ item.id }}" class="material-list__content js-accordion-content">
+                <p>{{ item.description }}</p>
+              </div>
+            </dd>
+          {% endfor %}
+        </dl>
+      </section>
+
+      <section class="step-2 flex">
+        <div class="flow">
+          <h2>
+            <span class="step">{{ 'step' | i18n }} 2</span>
+            {{ step2.title }}
+          </h2>
+          <p>{{ step2.description }}</p>
+        </div>
+        <div class="slider-container js-slider-container">
+          <div class="plain">
+            {% image
+              step2.plain.image,
+              step2.plain.label
+            %}
+          </div>
+          <div class="printed">
+            {% image
+              step2.printed.image,
+              step2.printed.label
+            %}
+          </div>
+          <div class="slider">
+            <input type="range" name="slider" id="slider">
+          </div>
+        </div>
+
+      </section>
+
+      <section class="step-3 flow--xl">
+        <h2>
+          <span class="step">{{ 'step' | i18n }} 3</span>
+          {{ step3.title }}
+        </h2>
+        <ul class="step-3__type-list">
+          {% for item in step3.types %}
+          <li>
+            <figure>
+              {% image
+                item.image,
+                item.label
+              %}
+              <figcaption>{{ item.label }}</figcaption>
+            </figure>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+    {% set ctaContent = primaryCTA %}
+    {% include "partials/cta.html" %}
+  </article>
+{% endblock %}

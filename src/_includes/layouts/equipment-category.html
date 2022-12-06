@@ -14,9 +14,9 @@
           {{ localizedType | eleventyNavigation(page.fileSlug) | eleventyNavigationToHtml({listClass:"toc__list"}) | safe }}
         </div>
       </aside>
-      <ul class="equipment-type-list">
+      <ul class="equipment-type-list flow--xl">
         {% for type in localizedType %}
-          {% include "partials/equipment-type.html" %}
+          <li>{% include "partials/equipment-type.html" %}</li>
         {% endfor %}
       </ul>
     </div>
