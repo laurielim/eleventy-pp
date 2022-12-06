@@ -1,7 +1,7 @@
 ---
 title: PLMIX7
 productType: planetary-mixer
-image: /src/assets/images/PLMIX7.jpeg
+image: /src/assets/images/PLMIX7.png
 imageAlt: Batteur mélangeur de 7L
 specs:
   - label: Voltage
