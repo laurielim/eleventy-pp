@@ -4,10 +4,11 @@ module.exports = (
   source,
   alt = '',
   isLazy = true,
-  className = undefined,
+  className = "image",
   sizes = '100vw',
   ) => {
     // Workaround as Netlify CMS saves image source with a slash
+    if (!source) return;
     const src = source.charAt(0) === "/" ? source.substring(1) : source;
 
     let options = {
