@@ -1,7 +1,7 @@
 ---
 title: SEALIMC-200
 productType: impulse-sealing-machine
-image: /src/assets/images/PerfEq_Logo.png
+image: /src/assets/images/resized-image-promo.jpeg
 imageAlt: SEALIMC-200
 specs:
   - label: Voltage
