@@ -1,0 +1,14 @@
+---
+title: BIND1
+productType: impulse-sealing-machine
+image: /src/assets/images/bag-binding-machine.jpg
+specs:
+  - label: Voltage
+    value: 220 V, 1-phase
+  - label: Power
+    value: kW
+  - label: Dimension
+    value: mm
+  - label: Net weight
+    value: Kg"
+---
