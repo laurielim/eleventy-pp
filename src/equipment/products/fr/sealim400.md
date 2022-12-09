@@ -1,5 +1,7 @@
 ---
 title: SEALIM400
+productType: impulse-sealing-machine
+image: /src/assets/images/pcs-impulse-sealing-machine.jpg
 imageAlt: SEALIM400
 specs:
   - label: Voltage

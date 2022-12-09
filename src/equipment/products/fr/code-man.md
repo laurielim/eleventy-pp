@@ -2,15 +2,18 @@
 title: CODE-MAN
 productType: impulse-sealing-machine
 image: /src/assets/images/coding-hand-controlled.jpg
+imageAlt: CODE-MAN
 specs:
   - label: Voltage
     value: 220 V, 1-phase
-  - label: Power
-    value: kW
+  - label: Puissance
+    value: 0.04 kW
   - label: Dimension
-    value: mm
-  - label: Net weight
-    value: Kg"
-  - {}
-  - {}
+    value: 225*200*155 mm
+  - label: Poids net
+    value: 2.5 Kg
+  - label: Température
+    value: 0-200 C
+  - label: Impression / codage
+    value: 3 lignes
 ---

@@ -2,7 +2,7 @@
 title: K2 indicator
 productType: electronic-scale
 image: /src/assets/images/k2_800x800_001.jpg
-imageAlt: K2
+imageAlt: K2 indicator
 specs:
   - label: Voltage
     value: 220 V, 1-phase

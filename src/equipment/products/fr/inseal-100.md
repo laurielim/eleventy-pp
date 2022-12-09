@@ -2,6 +2,7 @@
 title: INSEAL-100
 productType: induction-sealing-machine
 image: /src/assets/images/inseal.jpg
+imageAlt: INSEAL-100
 specs:
   - label: Voltage
     value: 220 V, 1-phase
@@ -13,6 +14,6 @@ specs:
     value: 4 Kg
   - label: Capacité
     value: 12 pièces/ min
-  - label: Diamètre de scellage
+  - label: Diamètre du scellage
     value: 20-100 mm
 ---

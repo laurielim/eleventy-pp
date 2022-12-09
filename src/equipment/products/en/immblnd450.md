@@ -10,7 +10,7 @@ specs:
     value: 0.75 kW
   - label: Head weight
     value: 2.8 Kg
-  - label: "Speed "
+  - label: Speed
     value: 20000 rpm
   - label: Tube dimension
     value: 450 mm

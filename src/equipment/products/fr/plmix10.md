@@ -2,7 +2,7 @@
 title: PLMIX10
 productType: planetary-mixer
 image: /src/assets/images/b10-planetary-mixer.jpg
-imageAlt: Planetary mixer 10L
+imageAlt: Batteur mélangeur de 10L
 specs:
   - label: Voltage
     value: 220 V, 1-phase
@@ -13,7 +13,7 @@ specs:
   - label: Poids net
     value: 61 Kg
   - label: Vitesse
-    value: 148/ 244/ 480 rpm
+    value: 148/ 244/ 480 tr/min
   - label: Capacité
     value: 10 L
 ---

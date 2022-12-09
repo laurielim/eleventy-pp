@@ -16,7 +16,7 @@ specs:
     value: 6 trays 60*40 cm
   - label: Temperature range
     value: 50-280 C
-  - label: TImer
+  - label: Timer
     value: 120 min
   - label: Features
     value: Electromechanical control knobs; Steam regulator

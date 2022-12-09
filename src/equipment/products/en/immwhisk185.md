@@ -10,7 +10,7 @@ specs:
     value: 0.2 kW
   - label: Head weight
     value: 1.5 Kg
-  - label: "Speed "
+  - label: Speed
     value: 4000-20000 rpm
   - label: Whisk dimension
     value: 185 mm

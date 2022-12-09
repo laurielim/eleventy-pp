@@ -6,7 +6,10 @@ document.documentElement.classList.remove("no-js");
 
 const scrollObserver = new IntersectionObserver((entries) => {
   if ( entries[0].isIntersecting || entries[0].isVisible) {
-    backToTopLink.style.opacity = 0;
+    if (!(entries[0].target.classList.contains('site-footer')
+    && window.matchMedia("(min-width: 1200px)").matches)) {
+      backToTopLink.style.opacity = 0;
+    }
   } else {
     backToTopLink.style.opacity = 1;
   }
