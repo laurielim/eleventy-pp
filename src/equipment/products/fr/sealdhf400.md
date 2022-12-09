@@ -7,10 +7,11 @@ specs:
   - label: Voltage
     value: 220 V, 1-phase
   - label: Puissance
-    value: kW
-  - label: Dimension
-    value: mm
+    value: 0.4 kW
+  - label: Longueur du scellage
+    value: 400 mm
+  - label: Largeur du scellage
+    value: 10 mm
   - label: Poids net
-    value: Kg"
-  - {}
+    value: 16 Kg
 ---

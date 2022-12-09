@@ -12,8 +12,8 @@ specs:
     value: 355*340*525 mm
   - label: Poids net
     value: 15 Kg
-  - label: Temperature
+  - label: Température
     value: 0-300 C
-  - label: Printing/ coding
-    value: 3 lines
+  - label: Impression / codage
+    value: 3 lignes
 ---

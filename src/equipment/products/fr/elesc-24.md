@@ -11,5 +11,5 @@ specs:
   - label: Dimension
     value: 1400*620*1630 mm
   - label: Capacité
-    value: 24 trays of 600*400 mm
+    value: 24 plaques of 600*400 mm
 ---

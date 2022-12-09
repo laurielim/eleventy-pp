@@ -12,8 +12,8 @@ specs:
     value: 225*200*155 mm
   - label: Poids net
     value: 2.5 Kg
-  - label: Temperature
+  - label: Température
     value: 0-200 C
-  - label: Printing/ coding
-    value: 3 lines
+  - label: Impression / codage
+    value: 3 lignes
 ---

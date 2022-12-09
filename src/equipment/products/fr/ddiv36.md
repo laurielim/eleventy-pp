@@ -12,8 +12,8 @@ specs:
     value: 580*500*1350 mm
   - label: Poids net
     value: 180 Kg
-  - label: Specification
-    value: 36 units/ batch
-  - label: Unit weight
+  - label: Spécification
+    value: 36 unités/ lot
+  - label: Poids de l'unité
     value: 30-180 g
 ---

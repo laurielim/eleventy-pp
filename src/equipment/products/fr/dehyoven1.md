@@ -14,7 +14,7 @@ specs:
     value: 406*433*511 mm
   - label: Poids net
     value: 12.9 Kg
-  - label: Temperature
+  - label: Température
     value: 30-75 C
   - label: Capacité
     value: 1.5 m2

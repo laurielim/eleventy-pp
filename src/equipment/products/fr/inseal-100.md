@@ -14,6 +14,6 @@ specs:
     value: 4 Kg
   - label: Capacité
     value: 12 pièces/ min
-  - label: Diamètre de scellage
+  - label: Diamètre du scellage
     value: 20-100 mm
 ---
