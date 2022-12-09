@@ -2,7 +2,7 @@
   <figure class="equipment__image">
     {% image equipment.data.image, equipment.data.imageAlt if equipment.data.imageAlt else equipment.data.title %}
   </figure>
-  <div class="equipment__info">
+  <div class="equipment__info flow">
     <h3>{{ equipment.data.title }}</h3>
     <ul class="spec-list">
       {% for spec in equipment.data.specs %}
