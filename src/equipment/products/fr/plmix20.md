@@ -2,7 +2,7 @@
 title: PLMIX20
 productType: planetary-mixer
 image: /src/assets/images/b20-planetary-mixer.jpg
-imageAlt: Planetary mixer 20L
+imageAlt: Batteur mélangeur de 20L
 specs:
   - label: Voltage
     value: 220 V, 1-phase
@@ -13,7 +13,7 @@ specs:
   - value: 82 Kg
     label: Poids net
   - label: Vitesse
-    value: 94/ 165/ 386 rpm
+    value: 94/ 165/ 386 tr/min
   - label: Capacité
     value: 20 L
 ---

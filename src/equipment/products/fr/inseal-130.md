@@ -1,5 +1,7 @@
 ---
 title: INSEAL-130
+productType: induction-sealing-machine
+image: /src/assets/images/inseal.jpg
 imageAlt: INSEAL-130
 specs:
   - label: Voltage

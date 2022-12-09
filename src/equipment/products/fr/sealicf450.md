@@ -1,5 +1,7 @@
 ---
 title: SEALICF450
+productType: impulse-sealing-machine
+image: /src/assets/images/mmexport1654829293570.jpg
 imageAlt: SEALICF-450
 specs:
   - label: Voltage

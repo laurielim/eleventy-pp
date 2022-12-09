@@ -2,6 +2,7 @@
 title: INSEAL-100
 productType: induction-sealing-machine
 image: /src/assets/images/inseal.jpg
+imageAlt: INSEAL-100
 specs:
   - label: Voltage
     value: 220 V, 1-phase

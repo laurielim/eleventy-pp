@@ -5,10 +5,10 @@ image: /src/assets/images/noodle-presser-MAG-70.jpg
 specs:
   - label: Voltage
     value: 220 V, 1-phase
-  - label: Power
+  - label: Puissance
     value: kW
   - label: Dimension
     value: mm
-  - label: Net weight
+  - label: Poids net
     value: Kg"
 ---
