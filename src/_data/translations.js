@@ -52,6 +52,22 @@ module.exports = {
       'en': 'Step',
       'fr': 'Étape',
     },
+    equipmentContact: {
+      'en': 'Any questions?',
+      'fr': 'Des questions?',
+    },
+    equipmentContactCall: {
+      'en': 'Call us on',
+      'fr': 'Appelez nous au',
+    },
+    equipmentContactEmail: {
+      'en': 'Email us on',
+      'fr': 'Envoyez-nous un e-mail à',
+    },
+    equipmentContactWhatsapp: {
+      'en': 'Send us a message on',
+      'fr': 'Envoyez-nous un message au',
+    },
   },
   fallbackLocales: {
     '*': 'en'

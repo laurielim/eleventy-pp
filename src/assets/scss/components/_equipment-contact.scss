@@ -1,0 +1,23 @@
+@use '../spacing' as *;
+
+.equipment-contact {
+  border-radius: 0.25rem;
+  padding: $spacing;
+
+  &__list {
+    list-style: none;
+    a {
+      font-weight: 500;
+    }
+  }
+
+  &__item {
+    column-gap: $spacing-small;
+    align-items: center;
+  }
+
+  &__icon {
+    height: var(--step-2);
+    width: var(--step-2);
+  }
+}

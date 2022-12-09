@@ -1,0 +1,26 @@
+<div class="equipment-contact flow">
+  <h2 class="equipment-contact__title">{{ 'equipmentContact' | i18n }}</h2>
+  <ul class="equipment-contact__list flow" >
+    <li class="equipment-contact__item flex">
+      {% fortawesomeRegular 'comments', 'equipment-contact__icon' %}
+      <a href="tel:+2302493780">
+        <span class="visually-hidden">{{ 'equipmentContactCall' | i18n }} </span>
+        +230 249 3780
+      </a>
+    </li>
+    <li class="equipment-contact__item flex">
+      {% fortawesomeRegular 'envelope', 'equipment-contact__icon' %}
+      <a href="mailto:equipment@performance.mu">
+        <span class="visually-hidden">{{ 'equipmentContactEmail' | i18n }} </span>
+        equipment@performance.mu
+      </a>
+    </li>
+    <li class="equipment-contact__item flex">
+      {% fortawesomeBrand 'whatsapp', 'equipment-contact__icon' %}
+      <a href="tel:+23059316762">
+        <span class="visually-hidden">{{ 'equipmentContactWhatsapp' | i18n }} </span>
+        +230 5931 6762
+      </a>
+    </li>
+  </ul>
+</div>

@@ -14,6 +14,7 @@
             <h2 class="toc__title">{{ 'toc' | i18n }}</h2>
             {{ localizedType | eleventyNavigation(page.fileSlug) | eleventyNavigationToHtml({listClass:"toc__list"}) | safe }}
           </div>
+          {% include "partials/equipment-contact.html" %}
         </div>
       </aside>
       <ul class="equipment-type-list flow--xl">
