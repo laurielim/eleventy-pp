@@ -1,12 +1,14 @@
 .toc {
+  &__wrapper {
+    top: $spacing-large;
+    max-width: 500px;
+    position: sticky;
+  }
+
   &__content {
     background-color: var(--color-accent-2);
     border-radius: 0.25rem;
-    margin-top: $spacing-small;
-    max-width: 500px;
     padding: $spacing;
-    top: $spacing;
-    position: sticky;
   }
 
   &__list {

@@ -4,7 +4,7 @@ module.exports = {
     title: "Let's expand your business",
     summary: "Partner with us to improve your production speed and efficiency. We cater equally to SMEs and large corporations.",
     buttonText: "Place an order",
-    buttonUrl: "tel:+230 5931 6762",
+    buttonUrl: "tel:+23059316762",
   },
   eleventyComputed: {
     eleventyNavigation: {

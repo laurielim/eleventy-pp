@@ -9,9 +9,11 @@
     {% include "partials/page-header.html" %}
     <div class="equipment-category__content wrapper">
       <aside class="toc">
-        <div class="toc__content">
-          <h2 class="toc__title">{{ 'toc' | i18n }}</h2>
-          {{ localizedType | eleventyNavigation(page.fileSlug) | eleventyNavigationToHtml({listClass:"toc__list"}) | safe }}
+        <div class="toc__wrapper">
+          <div class="toc__content">
+            <h2 class="toc__title">{{ 'toc' | i18n }}</h2>
+            {{ localizedType | eleventyNavigation(page.fileSlug) | eleventyNavigationToHtml({listClass:"toc__list"}) | safe }}
+          </div>
         </div>
       </aside>
       <ul class="equipment-type-list flow--xl">
@@ -20,5 +22,7 @@
         {% endfor %}
       </ul>
     </div>
+    {% set ctaContent = equipmentCTA %}
+    {% include "partials/cta.html" %}
   </article>
 {% endblock %}
