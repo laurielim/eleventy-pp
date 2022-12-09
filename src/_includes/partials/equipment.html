@@ -1,6 +1,6 @@
 <article class="equipment flow">
   <figure class="equipment__image">
-    {% image equipment.data.image, equipment.data.imageAlt %}
+    {% image equipment.data.image, equipment.data.imageAlt if equipment.data.imageAlt else equipment.data.title %}
   </figure>
   <div class="equipment__info">
     <h3>{{ equipment.data.title }}</h3>
