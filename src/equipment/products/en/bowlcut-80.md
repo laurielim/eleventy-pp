@@ -1,8 +1,8 @@
 ---
-title: BOWLCUT-80
+title: BOWLMCUT-80
 productType: meat-processing-machine
 image: /src/assets/images/bowlcut80.jpg
-imageAlt: BOWLCUT-80
+imageAlt: BOWLMCUT-80
 specs:
   - label: Voltage
     value: 220 V, 1-phase

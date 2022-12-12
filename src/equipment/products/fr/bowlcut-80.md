@@ -1,5 +1,5 @@
 ---
-title: BOWLCUT-80
+title: BOWLMCUT-80
 productType: meat-processing-machine
 image: /src/assets/images/bowlcut80.jpg
 specs:
