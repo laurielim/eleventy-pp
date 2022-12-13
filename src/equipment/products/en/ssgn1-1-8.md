@@ -1,7 +1,7 @@
 ---
 title: SSGN1/1*8"
 productType: other-kitchen-equipment
-image: /src/assets/images/sswb-1.png
+image: /src/assets/images/gn1-1.jpg
 imageAlt: SSGN1/1*8"
 specs:
   - label: Dimension
