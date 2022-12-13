@@ -1,6 +1,6 @@
 ---
 title: SEALDHF400
-productType: induction-sealing-machine
+productType: packaging-machine
 image: /src/assets/images/sealdf.png
 imageAlt: SEALDHF400
 specs:
