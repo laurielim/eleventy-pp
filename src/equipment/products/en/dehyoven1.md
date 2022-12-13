@@ -1,6 +1,6 @@
 ---
 title: DEHYOVEN1
-productType: deck-oven
+productType: other-kitchen-equipment
 image: /src/assets/images/dehydrating-oven-DEHYOVEN1.png
 imageAlt: DEHYOVEN1
 specs:

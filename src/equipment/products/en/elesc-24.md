@@ -1,6 +1,6 @@
 ---
 title: ELESC-24
-productType: deck-oven
+productType: other-kitchen-equipment
 image: /src/assets/images/steaming-cabinet-ELESC-2D.png
 imageAlt: ELESC-24
 specs:

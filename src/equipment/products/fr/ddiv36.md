@@ -1,6 +1,6 @@
 ---
 title: DDIV36
-productType: dough-roller
+productType: other-kitchen-equipment
 image: /src/assets/images/RMK-36 dough dividing machine.jpg
 imageAlt: DDIV36
 specs:
