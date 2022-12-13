@@ -2,13 +2,10 @@
 title: BTROLLEY16
 productType: other-kitchen-equipment
 image: /src/assets/images/BTROLLEY16.png
+imageAlt: BTROLLEY16
 specs:
-  - label: Voltage
-    value: 220 V, 1-phase
-  - label: Power
-    value: kW
   - label: Dimension
     value: mm
-  - label: Net weight
-    value: Kg"
+  - label: Capacité
+    value: 16 plateaux de 400*600 mm
 ---
