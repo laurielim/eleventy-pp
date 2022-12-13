@@ -1,2 +1,2 @@
 # eleventy-pp
-performance.mu built with eleventy
+This is the corporate website for Performance Plastics Ltd, a plastic manufacturing company in Mauritius. I originally made this website using wordpress but after learning web development, I have updated the website to use [Eleventy](https://www.11ty.dev) and [netlify cms](https://www.netlifycms.org); The website is hosted on a private webserver but it will eventually be updated to the instance on Netlify which you can see on https://performancemu.netlify.app
