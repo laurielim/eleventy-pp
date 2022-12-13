@@ -1,6 +1,6 @@
 ---
 title: ICECRUSH1
-productType: grinding-machine
+productType: other-kitchen-equipment
 image: /src/assets/images/ice-crusher-MZY-108.jpg
 imageAlt: ICECRUSH1
 specs:
