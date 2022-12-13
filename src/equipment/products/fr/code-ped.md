@@ -1,6 +1,6 @@
 ---
 title: CODE-PED
-productType: impulse-sealing-machine
+productType: packaging-machine
 image: /src/assets/images/coding-pedal-controlled.jpg
 imageAlt: CODE-PED
 specs:
