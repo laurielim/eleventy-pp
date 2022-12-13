@@ -1,6 +1,6 @@
 ---
 title: CODE-MAN
-productType: impulse-sealing-machine
+productType: packaging-machine
 image: /src/assets/images/coding-hand-controlled.jpg
 imageAlt: CODE-MAN
 specs:
