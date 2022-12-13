@@ -1,6 +1,6 @@
 ---
 title: BIND1
-productType: impulse-sealing-machine
+productType: packaging-machine
 image: /src/assets/images/bag-binding-machine.jpg
 imageAlt: BIND1
 specs:
