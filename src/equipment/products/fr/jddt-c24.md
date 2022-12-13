@@ -1,6 +1,6 @@
 ---
 title: JDDT-C24
-productType: vegetable-processing-machine
+productType: other-kitchen-equipment
 image: /src/assets/images/juice-dispenser-JDDT-C24.png
 specs:
   - label: Voltage
