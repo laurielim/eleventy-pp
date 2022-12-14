@@ -1,5 +1,6 @@
 .skip-link {
   background-color: var(--color-white);
+  color: var(--color-black);
   position: absolute;
   top: $spacing-large;
   z-index: 99;
@@ -75,6 +76,10 @@
     &[aria-current="page"] {
       background-color: var(--color-primary);
       color: var(--color-white);
+    }
+
+    &:focus-visible {
+      outline-color: var(--color-black);
     }
 
     span {
