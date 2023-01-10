@@ -1,6 +1,6 @@
 ---
-title: Other packaging equipment
+title: Autres équipements d'emballage
 tags:
   - packaging
 ---
-Non specific equipment used in the packaging process.
+Équipements non spécifiques utilisés dans le processus d'emballage.
