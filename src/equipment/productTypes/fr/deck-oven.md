@@ -1,5 +1,5 @@
 ---
-title: Four a sole
+title: Four à sole
 tags:
   - baking
 ---
