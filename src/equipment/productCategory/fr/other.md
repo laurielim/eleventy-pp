@@ -1,7 +1,7 @@
 ---
-title: Other
-description: Other equipment and accessories which are important elements of the
-  kitchen, whether professional or industrial
+title: Autres
+description: Autres équipements et accessoires qui sont des éléments importants
+  de la cuisine, qu'elle soit professionnelle ou industrielle.
 image: /src/assets/images/stainless-steel-furniture.png
 imageAlt: Furniture and accessories
 ---
