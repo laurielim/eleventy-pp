@@ -1,6 +1,6 @@
 ---
-title: Other kitchen equipment
+title: Autres équipements de cuisine
 tags:
   - other
 ---
-Other equipment which are useful for the good operation of a processing plant
+Autres équipements utiles au bon fonctionnement d'une usine de transformation
