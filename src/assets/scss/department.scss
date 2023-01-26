@@ -21,7 +21,7 @@
     text-transform: uppercase;
 
     @media screen and (min-width: $small) {
-      font-size: clamp(3.11rem, calc(2.58rem + 2.67vw), 4.2rem);
+      font-size: clamp(2.625rem, calc(3vw + 1.875rem), 4.2rem);
     }
   }
 
