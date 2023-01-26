@@ -1,6 +1,6 @@
 ---
 title: 'À propos de Performance'
-description: "Nous livrons nos produits à des prix compétitifs, à temps, et partout à l'île Maurice et dans certaines régions d'Afrique. Notre clientèle est répartie entre divers secteurs, tels que les industries alimentair, agricole et hôtelière, ce qui nous rend flexibles et adaptables."
+description: "Nous livrons nos produits à des prix compétitifs, à temps, et partout à l'île Maurice et dans certaines régions d'Afrique. Notre clientèle est répartie entre divers secteurs, tels que les industries alimentaires, agricoles et hôtelières, ce qui nous rend flexibles et adaptables."
 layout: 'layouts/about.html'
 permalink: '{{ locale }}/a-propos/index.html'
 eleventyNavigation:
@@ -18,16 +18,16 @@ aboutCTA:
   buttonUrl: "/fr/contact"
 ---
 
-## Notre histoir
+## Notre histoire
 
 - ### Fondée en 1990
-  Performance Plastics Ltd a commencé ses activités dans une salle de 100 m²à Port Louis. À l'époque, l'entreprise comptait 3 personnes pour faire fonctionner lesmachines et livrer les produits.
+  Performance Plastics Ltd a commencé ses activités dans une salle de 100 m²à Port Louis. À l'époque, l'entreprise comptait 3 personnes pour faire fonctionner les machines et livrer les produits.
 
 - ### Déménagement à Le Hochet
-  Au fur et à mesure que l'entreprise grandissait, il fallait plus d'espaceet de machines pour répondre à la demande. L'entreprise a loué un espace plus grand à LeHochet, Terre Rouge et les effectifs ont décuplé.
+  Au fur et à mesure que l'entreprise grandissait, il fallait plus d'espaceet de machines pour répondre à la demande. L'entreprise a loué un espace plus grand à Le Hochet, Terre Rouge et les effectifs ont décuplé.
 
 - ### Nos propres locaux
-  L'entreprise s'est beaucoup développée au fil des ans et notre usineoccupe désormais un bâtiment de 3 600 m² dans la zone industrielle de Riche Terre. Nousattribuons fièrement notre succès à notre niveau de service.
+  L'entreprise s'est beaucoup développée au fil des ans et notre usine occupe désormais un bâtiment de 3 600 m² dans la zone industrielle de Riche Terre. Nousattribuons fièrement notre succès à notre niveau de service.
 
 - ### Environment Protection Regulations 2015
   Suite à la nouvelle loi, Performance Plastics s'est adaptée rapidement. Enmars 2016, nous avons commencé à produire des sacs 100% biodegradable pour lesprincipaux supermarchés et points de vente de toute l'île.

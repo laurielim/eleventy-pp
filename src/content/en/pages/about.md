@@ -24,7 +24,7 @@ aboutCTA:
   Performance Plastics Ltd started inside a 100 m² room in Port Louis, Mauritius. At the time, the company consisted of the founder and 2 employees.
 
 - ### Moving to Le Hochet
-  As the business scaled, more space and machinery was needed to meet growing demand. The company rented a bigger space in Le Hochet, Terre Rouge and the workforce increased tenfold.
+  As the business scaled, more space and machinery was needed to meet growing demands. The company rented a bigger space in Le Hochet, Terre Rouge and the workforce increased tenfold.
 
 - ### Our Own Premises
   Now located in the Industrial Zone of Riche Terre, our factory occupies a 3,600 m² building. Performance has grown a lot over the years, which we proudly attribute to our level of service.
