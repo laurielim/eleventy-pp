@@ -21,11 +21,6 @@ products:
       - "Dimension: 27 x 25 inches"
       - "Gusset: 2 x 5.5 inches"
       - "Thickness: 20 microns"
-  - title: 10*14
-    subtitle: Die cut handle bag
-    specs:
-      - "Dimension: 10 x 14 inches"
-      - "Thickness: 60 microns"
   - title: 15*20
     subtitle: Die cut handle bag
     specs:

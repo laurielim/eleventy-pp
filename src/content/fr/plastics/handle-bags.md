@@ -21,11 +21,6 @@ products:
       - "Dimension: 27 x 25 pouces"
       - "Soufflets: 2 x 5.5 pouces"
       - "Épaisseur: 20 microns"
-  - title: 10*14
-    subtitle: Sacs à poignée découpée
-    specs:
-      - "Dimension: 10 x 14 pouces"
-      - "Épaisseur: 60 microns"
   - title: 15*20
     subtitle: Sacs à poignée découpée
     specs:
