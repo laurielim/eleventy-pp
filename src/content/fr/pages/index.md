@@ -6,13 +6,13 @@ hero:
   perf: Performance
   plas: Plastics
   equip: Equipments
-  lead: "Nous vous aidons dans le développement de vos produits afin d'améliorer leurs production et position sur le marché."
+  lead: "Nous vous aidons dans le développement de vos produits afin d'améliorer leurs productions et positions sur le marché."
   cta:
     text: "Découvrez nos produits"
     link: "#products"
 primaryCTA:
   title: "En activité depuis 1990"
-  summary: "Comptez sur notre expertise pendant que vous démarrez ou développez une activité commerciale. Performance Plastics fabrique des emballages qui vous distinguent et Performance Equipment vous fournit des équipements qui augmentent l’efficacité de production."
+  summary: "Comptez sur notre expertise pendant que vous démarrez ou développez une activité commerciale. Performance Plastics fabrique des emballages qui vous distinguent de la concurrence et Performance Equipment vous fournit des équipements qui augmentent l’efficacité de production."
   buttonText: "En savoir plus<span class='visually-hidden'> sur notre entreprise</span>"
   buttonUrl: "/fr/a-propos"
 features:

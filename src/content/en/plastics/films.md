@@ -1,13 +1,14 @@
 ---
 title: Films
 image: src/assets/images/stretch-film.jpeg
-imageAlt: Stretch film roll
+imageAlt: Shrink film roll
 products:
-  - title: Stretch film
+  - title: Shrink film
     subtitle:
     specs:
-      - "Width: 40 cms, 45 cms"
+      - "Width: 350mm, 450mm"
       - "Length: 400 mts"
+      - "Thickness: 19 microns"
   - title: Cling film
     subtitle:
     specs:

@@ -6,7 +6,7 @@ description: "Explore a wide range of products available in stock. Items such as
 cardCTA: "Explore products"
 image: src/assets/images/Perfplas.png
 imageAlt: Two stand-up pouch packaging.
-lead: Performance Plastics Ltd manufactures plastic bags, rolls and sheeting for a wide variety of applications, including packaging, 100% biodegradable plastic bags and garbage bags. Browse through our products which we keep in stock, readily available for purchase or contact us to create your own custom-made product through our bespoke service.
+lead: Performance Plastics Ltd manufactures plastic bags, rolls and sheeting for a wide variety of applications, including packaging, 100% biodegradable plastic bags and garbage bags. Browse through our products which are readily available for purchase or contact us to create your own custom-made product through our bespoke service.
 productCategories:
   title: Products ready for purchase
   collection: plasticCategories_en

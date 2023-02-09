@@ -1,6 +1,6 @@
 ---
 title: "About Performance"
-description: "We deliver our products at competitive prices, on time, and everywhere in Mauritius, as well as certain regions of Africa. We are flexible and adaptable which is why our client-base encompasses various industries, ranging from hospitality to retail, and agriculture."
+description: "We deliver our products at competitive prices, on time, and everywhere in Mauritius, as well as certain regions of Africa. We are flexible and adaptable, which is why our client-base encompasses various industries, ranging from hospitality to retail, and agriculture."
 layout: "layouts/about.html"
 permalink: "{{ locale }}/about-us/index.html"
 eleventyNavigation:

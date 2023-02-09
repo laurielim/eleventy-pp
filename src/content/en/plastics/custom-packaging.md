@@ -6,7 +6,7 @@ excludeFromCategory: true
 layout: "layouts/custom-packaging.html"
 step1:
   title: "Choose a material"
-  description: Some material are better than others depending on your product. The material will define the overall durability, endurance, and characteristics of the packaging. Our team is happy to help you choose the most appropriate material to suit your needs. Note that some packaging type are only available for specific types of materials.
+  description: Some materials are better than others depending on your product. The material will define the overall durability, endurance, and characteristics of the packaging. Our team is happy to help you choose the most appropriate material to suit your needs. Note that some packaging type are only available for specific types of materials.
   materials:
     - label: "PP | Polypropylene"
       id: pp
