@@ -3,12 +3,6 @@ title: Sacs à manches
 image: src/assets/images/biobag.jpeg
 imageAlt: Sacs bretelles biodégradables
 products:
-  - title: S3M PLAIN
-    subtitle: Sacs bretelles
-    specs:
-      - "Dimension: 14 x 16 pouces"
-      - "Soufflets: 2 x 2.25 pouces"
-      - "Épaisseur: 20 microns"
   - title: S PLAIN
     subtitle: Sacs bretelles
     specs:

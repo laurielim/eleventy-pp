@@ -3,12 +3,6 @@ title: Handle bags
 image: src/assets/images/biobag.jpeg
 imageAlt: Biodegradable vest bags
 products:
-  - title: S3M PLAIN
-    subtitle: Vest bag
-    specs:
-      - "Dimension: 14 x 16 inches"
-      - "Gusset: 2 x 2.25 inches"
-      - "Thickness: 20 microns"
   - title: S PLAIN
     subtitle: Vest bag
     specs:

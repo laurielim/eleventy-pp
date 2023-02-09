@@ -3,12 +3,6 @@ title: Sacs biodégradables
 description: "Performance Plastics Ltd est le leader dans la production de sacs en plastique biodégradables à Maurice. Nous fabriquons des sacs en plastique 100% biodégradable depuis 2016."
 excludeFromCategory: true
 products:
-  - title: S3M PLAIN
-    subtitle: Sacs bretelles
-    specs:
-      - "Dimension: 14 x 16 pouces"
-      - "Soufflets: 2 x 2.25 pouces"
-      - "Épaisseur: 20 microns"
   - title: S PLAIN
     subtitle: Sacs bretelles
     specs:
