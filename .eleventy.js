@@ -25,7 +25,7 @@ module.exports = (config) => {
 	config.addPlugin(fortawesomeFreeRegularPlugin);
 	config.addPlugin(fortawesomeBrandsPlugin);
 
-	const sortByDisplayOrder = require('./src/_11ty/utils/sort-by-display-order.js');
+	const sortAlphabetically = require('./src/_11ty/utils/sort-alphabetically.js');
 
 	// Returns plastic categories in english
 	config.addCollection('plasticsCategory_en', collection => {
@@ -49,12 +49,12 @@ module.exports = (config) => {
 
 	// Returns equipments in english
 	config.addCollection('equipment_en', collection => {
-		return collection.getFilteredByGlob('./src/equipment/products/en/*.md');
+		return sortAlphabetically(collection.getFilteredByGlob('./src/equipment/products/en/*.md'))
 	});
 
 	// Returns equipments in french
 	config.addCollection('equipment_fr', collection => {
-		return collection.getFilteredByGlob('./src/equipment/products/fr/*.md');
+		return sortAlphabetically(collection.getFilteredByGlob('./src/equipment/products/fr/*.md'))
 	});
 
 	return {
