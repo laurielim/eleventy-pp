@@ -1,10 +1,10 @@
 ---
-title: "Performance Plastics & Equipments"
+title: "Performance Packaging & Equipments"
 metaDesc: "Performance Plastics Ltd est un fabricant mauricien d'emballages en plastique et fournisseur d'équipements alimentaire et d'emballage."
 layout: "layouts/home.html"
 hero:
   perf: Performance
-  plas: Plastics
+  plas: Packaging
   equip: Equipments
   lead: "Nous vous aidons dans le développement de vos produits afin d'améliorer leurs productions et positions sur le marché."
   cta:
@@ -12,7 +12,7 @@ hero:
     link: "#products"
 primaryCTA:
   title: "En activité depuis 1990"
-  summary: "Comptez sur notre expertise pendant que vous démarrez ou développez une activité commerciale. Performance Plastics fabrique des emballages qui vous distinguent de la concurrence et Performance Equipment vous fournit des équipements qui augmentent l’efficacité de production."
+  summary: "Comptez sur notre expertise pendant que vous démarrez ou développez une activité commerciale. Performance Packaging fabrique des emballages qui vous distinguent de la concurrence et Performance Equipment vous fournit des équipements qui augmentent l’efficacité de production."
   buttonText: "En savoir plus<span class='visually-hidden'> sur notre entreprise</span>"
   buttonUrl: "/fr/a-propos"
 features:
@@ -29,7 +29,7 @@ features:
     imageAlt: "OK Compost logo"
     description: "Tous les sacs biodégradables que nous fabriquons sont conformes aux lois de Maurice. De plus, les matières premières que nous utilisons ont reçu la marque de conformité «OK COMPOST» émis par TÜV AUSTRIA CERT BMBH."
     cardCTA: "Voir nos produits bio"
-    cardCtaLink: "/fr/plastiques/sacs-biodegradables/"
+    cardCtaLink: "/fr/packaging/sacs-biodegradables/"
 productCategories:
   title: Notre gamme de produits
 permalink: '{{ locale }}/index.html'

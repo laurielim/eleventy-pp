@@ -30,7 +30,7 @@ aboutCTA:
   Now located in the Industrial Zone of Riche Terre, our factory occupies a 3,600 m² building. Performance has grown a lot over the years, which we proudly attribute to our level of service.
 
 - ### Environment Protection Regulations 2015
-  Following the new regulations, Performance Plastics adapted promptly. In March 2016, we started producing 100% biodegradable handle bags for major supermarkets and retail outlets across the island."
+  Following the new regulations, Performance adapted promptly. In March 2016, we started producing 100% biodegradable handle bags for major supermarkets and retail outlets across the island."
 
 - ### New Division
-  The year 2018 saw the the creation of [Performance Equipment](/en/equipment). This new business venture is the first step towards diversifying our enterprise. We aim to respond to the needs of the market, and we want to achieve this goal by applying the same philosophy we developed with Performance Plastics.
+  The year 2018 saw the the creation of [Performance Equipment](/en/equipment). This new business venture is the first step towards diversifying our enterprise. We aim to respond to the needs of the market, and we want to achieve this goal by applying the same philosophy we developed with Performance Packaging.

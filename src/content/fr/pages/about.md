@@ -30,7 +30,7 @@ aboutCTA:
   L'entreprise s'est beaucoup développée au fil des ans et notre usine occupe désormais un bâtiment de 3 600 m² dans la zone industrielle de Riche Terre. Nousattribuons fièrement notre succès à notre niveau de service.
 
 - ### Environment Protection Regulations 2015
-  Suite à la nouvelle loi, Performance Plastics s'est adaptée rapidement. Enmars 2016, nous avons commencé à produire des sacs 100% biodegradable pour lesprincipaux supermarchés et points de vente de toute l'île.
+  Suite à la nouvelle loi, Performance s'est adaptée rapidement. Enmars 2016, nous avons commencé à produire des sacs 100% biodegradable pour lesprincipaux supermarchés et points de vente de toute l'île.
 
 - ### Nouvelle division
-  En 2018, [Performance Equipment](/fr/equipment) a été créé. Cette nouvelle activité commerciale est la première étape vers la diversification de notre entreprise. Notre objectif est d'étendre les services que nous offrons pour faciliter le développement d'entreprises de nos clients tout en appliquant la même philosophie que nous avons développée avec Performance Plastics.
+  En 2018, [Performance Equipment](/fr/equipment) a été créé. Cette nouvelle activité commerciale est la première étape vers la diversification de notre entreprise. Notre objectif est d'étendre les services que nous offrons pour faciliter le développement d'entreprises de nos clients tout en appliquant la même philosophie que nous avons développée avec Performance Packaging.
