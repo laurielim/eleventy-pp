@@ -1,7 +1,7 @@
 ---
 title: Soudeuse par induction
 tags:
-  - packaging
+  - packaging-equipment
 ---
 L﻿e soudage par induction comprend le chauffage d'un objet à conduction électrique (le papier aluminium) par induction électromagnétique.
 

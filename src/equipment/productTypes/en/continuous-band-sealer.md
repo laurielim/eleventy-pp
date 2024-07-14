@@ -1,7 +1,7 @@
 ---
 title: Continuous band sealer
 tags:
-  - packaging
+  - packaging-equipment
 ---
 A reliable and multipurpose piece of equipment to vastly improve packing speed and effectiveness over the traditional manual impulse sealing machine.
 

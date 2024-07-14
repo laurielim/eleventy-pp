@@ -1,7 +1,7 @@
 ---
 title: Soudeuses en continu
 tags:
-  - packaging
+  - packaging-equipment
 ---
 Un équipement fiable et polyvalent qui améliore considérablement la vitesse et l'efficacité d'emballage. Les sachets sont transportés par le convoyeur durant le cycle de soudure permettant ainsi à l’opérateur de pouvoir se consacrer à l’opération d’ensachage en temps masqué.
 
