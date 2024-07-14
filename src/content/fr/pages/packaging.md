@@ -15,13 +15,13 @@ features:
   list:
   - title: Service sur mesure
     image: "src/assets/images/bespoke-service.png"
-    imageAlt: "Remue-méninges à deux, conçu par"
+    imageAlt: "Remue-méninges à deux"
     description: "Notre service sur mesure nous permet de travailler en étroite collaboration avec vous et de concevoir des emballages qui répondent à vos besoins et mettent en valeur votre marque."
     cardCTA: "Lire plus<span class='visually-hidden'> le service sur mesure.</span>"
     cardCtaLink: /fr/packaging/sur-mesure
   - title: Service de livraison
     image: "src/assets/images/delivery-service.png"
-    imageAlt: "Delivery van with driver, designed by freekpik"
+    imageAlt: "Chaffeur dans un van à livraison"
     description: "Nous livrons nos produits à travers l'île, aux particuliers et aux entreprises. Livraison gratuite avec un montant de commande minimum."
     cardCTA: ""
     cardCtaLink: ""

@@ -15,13 +15,13 @@ features:
   list:
   - title: Bespoke Service
     image: "src/assets/images/bespoke-service.png"
-    imageAlt: "Two people brainstorming, designed by freekpik"
+    imageAlt: "Two people brainstorming"
     description: "Our bespoke service allows us to work closely with you and design custom-made plastic bags or packaging solutions that meet your needs and show off the individuality of your product's brand."
     cardCTA: "Learn more<span class='visually-hidden'> about our bespoke services.</span>"
     cardCtaLink: "/en/packaging/custom-packaging"
   - title: Delivery Service
     image: "src/assets/images/delivery-service.png"
-    imageAlt: "Delivery van with driver, designed by freekpik"
+    imageAlt: "Delivery van with driver"
     description: "Performance Packaging delivers products across the island to both individuals and businesses. We offer free delivery on minimum order quantity."
     cardCTA: ""
     cardCtaLink: ""
