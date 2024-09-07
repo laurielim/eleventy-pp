@@ -1,6 +1,6 @@
 ---
 title: Sur mesure
-description: "Un emballage personnalisé aide votre produit à se démarquer. Ajoutez votre marque à tout ce que vous vendez avec un emballage personnalisé de Performance Plastics."
+description: "Un emballage personnalisé aide votre produit à se démarquer. Ajoutez votre marque à tout ce que vous vendez avec un emballage personnalisé de Performance Packaging."
 lead: "Nous proposons des solutions sur mesure pour répondre à vos besoins et nous vous aidons de l'idée au produit fini. Faites défiler vers le bas pour un guide étape par étape et contactez-nous pour obtenir une consultation."
 excludeFromCategory: true
 layout: "layouts/custom-packaging.html"

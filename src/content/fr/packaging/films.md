@@ -6,8 +6,9 @@ products:
   - title: Film rétractable
     subtitle:
     specs:
-      - "Largeur: 40 cms, 45 cms"
+      - "Largeur: 350mm, 450mm"
       - "Longueur: 400 mts"
+      - "Épaisseur: 19 microns"
   - title: Film alimentaire
     subtitle:
     specs:

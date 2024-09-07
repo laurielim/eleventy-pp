@@ -1,12 +1,12 @@
 ---
 title: Custom packaging
-description: "Custom packaging helps your product standout. Add your brand to everything you sell with personalized packaging from Performance Plastics."
+description: "Custom packaging helps your product standout. Add your brand to everything you sell with personalized packaging from Performance Packaging."
 lead: "We offer custom-made solutions to meet your needs, and we assist you from idea to finished product. Scroll down for a step by step guide and contact us to schedule a consultation."
 excludeFromCategory: true
 layout: "layouts/custom-packaging.html"
 step1:
   title: "Choose a material"
-  description: Some material are better than others depending on your product. The material will define the overall durability, endurance, and characteristics of the packaging. Our team is happy to help you choose the most appropriate material to suit your needs. Note that some packaging type are only available for specific types of materials.
+  description: Some materials are better than others depending on your product. The material will define the overall durability, endurance, and characteristics of the packaging. Our team is happy to help you choose the most appropriate material to suit your needs. Note that some packaging type are only available for specific types of materials.
   materials:
     - label: "PP | Polypropylene"
       id: pp

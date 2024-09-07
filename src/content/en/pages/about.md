@@ -1,6 +1,6 @@
 ---
 title: "About Performance"
-description: "We deliver our products at competitive prices, on time, and everywhere in Mauritius, as well as certain regions of Africa. We are flexible and adaptable which is why our client-base encompasses various industries, ranging from hospitality to retail, and agriculture."
+description: "We deliver our products at competitive prices, on time, and everywhere in Mauritius, as well as certain regions of Africa. We are flexible and adaptable, which is why our client-base encompasses various industries, ranging from hospitality to retail, and agriculture."
 layout: "layouts/about.html"
 permalink: "{{ locale }}/about-us/index.html"
 eleventyNavigation:
@@ -24,13 +24,13 @@ aboutCTA:
   Performance Plastics Ltd started inside a 100 m² room in Port Louis, Mauritius. At the time, the company consisted of the founder and 2 employees.
 
 - ### Moving to Le Hochet
-  As the business scaled, more space and machinery was needed to meet growing demand. The company rented a bigger space in Le Hochet, Terre Rouge and the workforce increased tenfold.
+  As the business scaled, more space and machinery was needed to meet growing demands. The company rented a bigger space in Le Hochet, Terre Rouge and the workforce increased tenfold.
 
 - ### Our Own Premises
   Now located in the Industrial Zone of Riche Terre, our factory occupies a 3,600 m² building. Performance has grown a lot over the years, which we proudly attribute to our level of service.
 
 - ### Environment Protection Regulations 2015
-  Following the new regulations, Performance Plastics adapted promptly. In March 2016, we started producing 100% biodegradable handle bags for major supermarkets and retail outlets across the island."
+  Following the new regulations, Performance adapted promptly. In March 2016, we started producing 100% biodegradable handle bags for major supermarkets and retail outlets across the island."
 
 - ### New Division
-  The year 2018 saw the the creation of [Performance Equipment](/en/equipment). This new business venture is the first step towards diversifying our enterprise. We aim to respond to the needs of the market, and we want to achieve this goal by applying the same philosophy we developed with Performance Plastics.
+  The year 2018 saw the the creation of [Performance Equipment](/en/equipment). This new business venture is the first step towards diversifying our enterprise. We aim to respond to the needs of the market, and we want to achieve this goal by applying the same philosophy we developed with Performance Packaging.

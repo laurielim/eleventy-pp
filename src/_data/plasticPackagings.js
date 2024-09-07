@@ -133,6 +133,8 @@ module.exports = {
   vacuum: [
     "166 x 250 mms",
     "206 x 300 mms",
+    "250 x 350 mms",
     "306 x 398 mms",
+    "356 x 400 mms",
   ],
 }

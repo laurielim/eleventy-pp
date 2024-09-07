@@ -1,10 +1,10 @@
 ---
-title: "Performance Plastics & Equipments"
+title: "Performance Packaging & Equipments"
 metaDesc: "Performance Plastics Ltd is a Mauritius-based manufacturer of plastic bags & packaging and provider of packing & food processing equipment."
 layout: "layouts/home.html"
 hero:
   perf: Performance
-  plas: Plastics
+  plas: Packaging
   equip: Equipments
   lead: "We assist you in growing your business whether you’re bringing a new product to market or ramping up production."
   cta:
@@ -31,7 +31,7 @@ features:
     imageAlt: "OK Compost logo"
     description: "All biodegrable plastic bags we manufacture comply with the laws of Mauritius. Additionally, the materials we use have been attributed the “OK COMPOST” conformity mark issued by TÜV AUSTRIA CERT BMBH."
     cardCTA: "See <span class='visually-hidden'>our biodegradable </span>products"
-    cardCtaLink: "/en/plastics/biodegradable-bags/"
+    cardCtaLink: "/en/packaging/biodegradable-bags/"
 productCategories:
   title: Product categories
 permalink: '{{ locale }}/index.html'
