@@ -8,6 +8,10 @@ This is the corporate website for Performance Plastics Ltd, a plastic manufactur
 - Sass
 - Figma
 
+## Requirement
+
+- Node v16
+
 ## Sources
 
 - [Tutorials by Andy Bell](https://piccalil.li/tutorials)
